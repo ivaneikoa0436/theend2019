@@ -89,7 +89,13 @@ footer {
 </style>
 </head>
 <body>
-
+<h1> Welcome
+    <title>Website</title>
+</h1>
+<body>
+<p> to page 2
+    <a href="https://www.wikipedia.org/" target="_self">Link</a>
+</body>x
 
 
 <header>
