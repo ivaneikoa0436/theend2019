@@ -91,18 +91,15 @@ footer {
 <body>
 <h1> 
     <title>Website</title>
-</h1>
-<body>
-<p> 
-    <a href="https://www.wikipedia.org/" target="_self">Link</a>
-</body>x
+
 
 
 <header>
   <h2>A</h2>
 </header>
 <nav>
- P
+     <a href="https://www.wikipedia.org/" target="_self">Link</a>
+
 </nav>
 v
 <section>
