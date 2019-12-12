@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
 <title>The End</title>
@@ -13,7 +12,6 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Style the header */
 header {
   background-color: #666;
   padding: 1px;
@@ -22,16 +20,15 @@ header {
   color: white;
 }
 
-/* Create two columns/boxes that floats next to each other */
+
 nav {
   float: ;
   width: 100%;
-  height: 0px; /* only for demonstration, should be removed */
+  height: 0px;
   background: #c76;
   padding: 20px;
 }
 
-/* Style the list inside the menu */
 nav ul {
   list-style-type: none;
   padding: 0;
@@ -39,7 +36,7 @@ nav ul {
 aside {
   float: left;
   width: 15%;
-  height: 300px; /* only for demonstration, should be removed */
+  height: 300px;
   background: #ccc;
   padding: 20px;
 }
@@ -48,29 +45,26 @@ article {
   padding: 20px;
   width: 70%;
   background-color: #f1f1f1;
-  height: 300px; /* only for demonstration, should be removed */
-}
+  height: 300px; 
+  }
 img {
   float: left;
   width: 15%;
-  height: 300px; /* only for demonstration, should be removed */
+  height: 300px; 
   background: #ccc;
   padding: 20px;
 }
 
-/* Style the list inside the menu */
 img ul {
   list-style-type: none;
   padding: 0;
 
-/* Clear floats after the columns */
 section:after {
   content: "";
   display: table;
   clear: both;
 }
 
-/* Style the footer */
 footer {
   background-color: #777;
   padding: 90px;
@@ -78,7 +72,7 @@ footer {
   color: #c76;
 }
 
-/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+
 @media (max-width: 600px) {
   nav, article {
     width: 100%;
