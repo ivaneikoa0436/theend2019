@@ -103,7 +103,7 @@ footer {
 background:    linear-gradient(#999999, #444444);
 border:        1px solid #000000;
 border-radius: 5px;
-padding:       8px 20px;
+padding:       8px 10px;
 color:         #ffffff;
 display:       inline-block;
 font:          normal normal 21px/1 "Ubuntu", sans-serif;
