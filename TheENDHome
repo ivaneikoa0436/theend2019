@@ -8,10 +8,7 @@
 
 
 <style>
-* 
-.button1 {font-size: 10px;}
-
-
+*
 {
   box-sizing: border-box;
 }
