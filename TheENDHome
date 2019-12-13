@@ -96,7 +96,7 @@ footer {
   <h2>A</h2>
 </header>
 <nav>
-  <input type="button" onclick="window.location.href = 'bread';" value="w3docs"/></nav>
+  <input type="button" onclick="window.location.href = 'bread';" value="map"/></nav>
 
 <section>
 <aside>
