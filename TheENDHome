@@ -99,8 +99,8 @@ footer {
   <h2>A</h2>
 </header>
 <nav>
-<input type="button1" onclick="window.location.href = 'bread';" value="map"/>
-<input type="button1" onclick="window.location.href = 'https://www.eventbrite.com/d/ca--sacramento/events/' ;" value="Events"/></nav>
+<input type="button" onclick="window.location.href = 'bread';" value="map"/>
+<input type="button" onclick="window.location.href = 'https://www.eventbrite.com/d/ca--sacramento/events/' ;" value="Events"/></nav>
 
 <section>
 <aside>
