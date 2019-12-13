@@ -114,7 +114,7 @@ footer {
   <h2>A</h2>
 </header>
 <nav>
-<input type="button1" onclick="window.location.href = 'bread';" value="map"/></nav>
+<input type="button1" onclick="window.location.href = 'bread';" value="map"/>
 <input type="button1" onclick="https://www.eventbrite.com/d/ca--sacramento/events/ = 'Events';" value="Events"/></nav>
 
 <section>
