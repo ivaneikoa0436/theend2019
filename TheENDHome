@@ -96,7 +96,7 @@ footer {
   <h2>A</h2>
 </header>
 <nav>
- P
+ <button type="button">Click Me!</button>
 </nav>
 
 <section>
