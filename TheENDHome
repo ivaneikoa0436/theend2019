@@ -96,8 +96,7 @@ footer {
   <h2>A</h2>
 </header>
 <nav>
- <button type="button">Click Me!</button>
-</nav>
+  <input type="button" onclick="window.location.href = 'bread';" value="w3docs"/></nav>
 
 <section>
 <aside>
