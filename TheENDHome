@@ -107,7 +107,9 @@ footer {
 
 <section>
 <aside>
-  <h2>C</h2>
+  input type="button" onclick="window.location.href = 'Account' ;" value="Account"/>
+<input type="button" onclick="window.location.href = 'login' ;" value="login"/> 
+<input type="button" onclick="window.location.href = 'registration' ;" value="registration"/>
 </aside>
 <article>
    <h2>B.</h2>
