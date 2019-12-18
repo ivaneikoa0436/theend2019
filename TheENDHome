@@ -101,6 +101,8 @@ footer {
 <nav>
 <input type="button" style= "background-color;green" onclick="window.location.href = 'bread';" value="map"/>
 <input type="button" onclick="window.location.href = 'Events' ;" value="e
+<input type="button" onclick="window.location.href = 'home' ;" value="e
+<input type="button" onclick="window.location.href = 'articles' ;" value="e
 vents"/></nav>
 
 <section>
