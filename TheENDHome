@@ -99,10 +99,10 @@ footer {
   <h2>A</h2>
 </header>
 <nav>
-<input type="button" style= "background-color;green" onclick="window.location.href = 'bread';" value="map"/>
-<input type="button" onclick="window.location.href = 'Events' ;" value="events"/>
 <input type="button" onclick="window.location.href = 'TheENDHome' ;" value="home"/>
 <input type="button" onclick="window.location.href = 'articles' ;" value="articles"/> 
+input type="button" onclick="window.location.href = 'about us' ;" value="about us"/>
+<input type="button" onclick="window.location.href = 'Events' ;" value="events"/> 
 </nav>
 
 <section>
