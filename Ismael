@@ -15,7 +15,7 @@ document.getElementById("sa").innerHTML = "<a href=blah.html?name=" + n + ">Prod
 <span id="sa">
 <a id="aa" href="#">test</a>
 </span>
-<input type="file" id="t1" /> 
+<input type="text" id="t1" /> 
 <input type="button"
 onclick="myfunction()"
 value="Click me"> 
