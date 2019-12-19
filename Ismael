@@ -4,7 +4,7 @@
 function myfunction() 
 { 
 var n = document.getElementById("t1").value
-document.getElementById("sa").innerHTML = "<a href=blah.html?name=" + n + ">Products</a>";
+document.getElementById("sa").innerHTML = "<a href=login </a>";
   
 } 
 </script> 
