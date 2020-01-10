@@ -91,7 +91,7 @@ footer {
   .button {
   background-color: #4CAF50;
   border: 1px;
-  color: white;
+  color: red;
   padding: 5px 1px;
   text-align: center;
   text-decoration: none;
