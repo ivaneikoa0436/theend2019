@@ -111,8 +111,6 @@ footer {
 <nav>
 <a href="#" class="button">Link Button</a>
 <a href="#" class="button" onclick="window.location.href = 'articles' ;" value="articles"/> 
-<input type="button" onclick="window.location.href = 'about us' ;" value="about us"/>
-<input type="button" onclick="window.location.href = 'Events' ;" value="events"/> 
 </nav>
 
 <section>
