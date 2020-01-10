@@ -88,14 +88,7 @@ footer {
     width: 100%;
     height: auto;
   }
-}
-</style>
-</head>
-<body>
-
-
-<style>
-.button {
+  .button {
   background-color: #4CAF50;
   border: none;
   color: white;
@@ -107,8 +100,10 @@ footer {
   margin: 4px 2px;
   cursor: pointer;
 }
+}
 </style>
-
+</head>
+<body>
 
 <header>
   <h2>A</h2>
