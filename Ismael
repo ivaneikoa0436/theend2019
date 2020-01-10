@@ -126,7 +126,7 @@ button {
 }
 </style>
 <input type="button" onclick="window.location.href = 'TheENDHome' ;" value="home"/>
-<input type="button" onclick="window.location.href = 'articles' ;" value="articles"/> 
+<button class="button" onclick="window.location.href = 'articles' ;" value="articles"/> 
 <input type="button" onclick="window.location.href = 'about us' ;" value="about us"/>
 <input type="button" onclick="window.location.href = 'Events' ;" value="events"/> 
 </nav>
