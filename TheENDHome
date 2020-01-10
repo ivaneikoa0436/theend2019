@@ -96,7 +96,7 @@ footer {
 
 
 <header>
-  <img src="alenmann.afdesign" alt="logo">
+  <img src="alenmann.jpg" alt="logo">
 </header>
 <nav>
 <input type="button" onclick="window.location.href = 'TheENDHome' ;" value="home"/>
