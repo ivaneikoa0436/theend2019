@@ -108,12 +108,11 @@ footer {
 <header>
   <h2>A</h2>
 </header>
-<nav>
-<a href="#" class="button" onclick="window.location.href = 'articles' ;" value="articles"/> 
-</nav>
+
 
 <section>
 <aside> 
+<a href="#" class="button" onclick="window.location.href = 'articles' ;" value="articles"/> 
 <input type="button" onclick="window.location.href = 'Account' ;" value="Account"/>
 <input type="button" onclick="window.location.href = 'login' ;" value="login"/> 
 <input type="button" onclick="window.location.href = 'registration' ;" value="registration"/>
