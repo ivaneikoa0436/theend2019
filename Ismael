@@ -108,6 +108,9 @@ footer {
   cursor: pointer;
 }
 </style>
+<input type="button" class="button" value="Input Button">
+
+
 <header>
   <h2>A</h2>
 </header>
