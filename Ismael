@@ -109,7 +109,6 @@ footer {
   <h2>A</h2>
 </header>
 <nav>
-<a href="#" class="button">Link Button</a>
 <a href="#" class="button" onclick="window.location.href = 'articles' ;" value="articles"/> 
 </nav>
 
