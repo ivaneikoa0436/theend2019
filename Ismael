@@ -108,14 +108,13 @@ footer {
   cursor: pointer;
 }
 </style>
-<input type="button" class="button" value="Input Button">
 
 
 <header>
   <h2>A</h2>
 </header>
 <nav>
-<input type="button" onclick="window.location.href = 'TheENDHome' ;" value="home"/>
+<a href="#" class="button">Link Button</a>
 <input type="button" onclick="window.location.href = 'articles' ;" value="articles"/> 
 <input type="button" onclick="window.location.href = 'about us' ;" value="about us"/>
 <input type="button" onclick="window.location.href = 'Events' ;" value="events"/> 
