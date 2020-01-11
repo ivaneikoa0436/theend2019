@@ -104,7 +104,6 @@ footer {
   background-color: #4CAF50;
   border: none;
   color: white;
-  float: center;
   padding: 10px 40px;
   text-align: center;
   text-decoration: none;
