@@ -96,7 +96,7 @@ footer {
 
 
 <header>
-  <img src="alenmann.png" alt="logo" style="width:50px;height:60px;"> <h2 style="font-family:Trattatello ;">The End</h2>
+  <img src="alenman.jpg" alt="logo" style="width:50px;height:60px;"> <h2 style="font-family:Trattatello ;">The End</h2>
 </header>
 <nav>
 <input type="button" onclick="window.location.href = 'TheENDHome' ;" value="home"/>
