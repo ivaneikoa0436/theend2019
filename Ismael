@@ -91,6 +91,7 @@ footer {
 button {
   background-color: #4CAF50;
   border: none;
+    float: middle;
   color: white;
   padding: 15px 32px;
   text-align: center;
