@@ -114,7 +114,7 @@ footer {
   cursor: pointer;
 }
 </style>
- <center>
+ <center style="margin-top: -15px;">
 <button class="button" onclick="window.location.href = 'TheENDHome' ;" value="home"/>
 <button class="button" onclick="window.location.href = 'articles' ;" value="articles"/> 
 <button class="button" onclick="window.location.href = 'about us' ;" value="about us"/>
