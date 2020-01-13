@@ -104,7 +104,6 @@ footer {
   background-color: red;
   border: none;
   color: white;
-  position: absolute;
   float: right;
   padding: 10px 50px;
   text-align: center;
