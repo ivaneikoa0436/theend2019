@@ -101,9 +101,9 @@ footer {
 <nav>
 <style>
 .button {
-  background-color: red;
+  background-color: black;
   border: none;
-  color: blue;
+  color: white;
   float: center;
   padding: 17px 150px;
   text-align: center;
