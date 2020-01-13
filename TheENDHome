@@ -114,9 +114,7 @@ footer {
 <article>
    <h2>B.</h2>
 </article> 
-<img>
-     <img src="images.png" alt="ad" style="width:120px;height:114px;">
-</img>
+<img src="images.png" alt="ad" style="width:120px;height:114px;">
 </section>
 
 <footer>
