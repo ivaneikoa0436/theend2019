@@ -103,7 +103,7 @@ footer {
 .button {
   background-color: red;
   border: none;
-  color: white;
+  color: black;
   float: center;
   padding: 17px 150px;
   text-align: center;
