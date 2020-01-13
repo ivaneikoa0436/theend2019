@@ -101,15 +101,15 @@ footer {
 <nav>
 <style>
 .button {
-  background-color: red;
+  background-color: black;
   border: none;
-  color: black;
+  color: white;
   float: center;
   padding: 17px 150px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 20px;
   margin: 0px 3px;
   cursor: pointer;
 }
