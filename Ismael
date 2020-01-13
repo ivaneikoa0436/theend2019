@@ -109,7 +109,7 @@ footer {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 6px;
+  font-size: 1px;
   margin: 0px 3px;
   cursor: pointer;
 }
