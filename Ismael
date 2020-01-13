@@ -88,18 +88,6 @@ footer {
     width: 100%;
     height: auto;
   }
-button {
-  background-color: #4CAF50;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-}
 }
 </style>
 </head>
@@ -113,22 +101,25 @@ button {
 <nav>
 <style>
 .button {
-  background-color: #4CAF50;
+  background-color: red;
   border: none;
   color: white;
-  padding: 15px 32px;
+  float: center;
+  padding: 10px 50px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin: 4px 2px;
+  margin: -40px 2px;
   cursor: pointer;
 }
 </style>
-<input type="button" onclick="window.location.href = 'TheENDHome' ;" value="home"/>
-<input type="button" onclick="window.location.href = 'articles' ;" value="articles"/> 
-<input type="button" onclick="window.location.href = 'about us' ;" value="about us"/>
-<input type="button" onclick="window.location.href = 'Events' ;" value="events"/> 
+ <center>
+<button class="button" onclick="window.location.href = 'TheENDHome' ;" value="home"/>
+<button class="button" onclick="window.location.href = 'articles' ;" value="articles"/> 
+<button class="button" onclick="window.location.href = 'about us' ;" value="about us"/>
+<button class="button" onclick="window.location.href = 'Events' ;" value="events"/> 
+</center>
 </nav>
 
 <section>
