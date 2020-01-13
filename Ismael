@@ -104,11 +104,11 @@ footer {
   background-color: red;
   border: none;
   color: white;
-  float: center;
+  float: inline-start;
   padding: 10px 50px;
   text-align: center;
   text-decoration: none;
-  display: inline;
+  display: inline-block;
   font-size: 16px;
   margin: 0px 3px;
   cursor: pointer;
