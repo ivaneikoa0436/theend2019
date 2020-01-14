@@ -111,10 +111,10 @@ footer {
 }
 </style>
  <center style="margin-top: -17px;">
-<button class="button" onclick="window.location.href = 'TheENDHome' ;" value="home"/>
-<button class="button" onclick="window.location.href = 'articles' ;" value="articles"/> 
-<button class="button" onclick="window.location.href = 'about us' ;" value="about us"/>
-<button class="button" onclick="window.location.href = 'Events' ;" value="events"/> 
+<button class="button" onclick="window.location.href = 'TheENDHome' ;" value="home"/> TheENDHome </button>
+<button class="button" onclick="window.location.href = 'articles' ;" value="articles"/> articles </button>
+<button class="button" onclick="window.location.href = 'about us' ;" value="about us"/> about us </button>
+<button class="button" onclick="window.location.href = 'Events' ;" value="events"/> Events </button>
 </center>
 </nav>
 
