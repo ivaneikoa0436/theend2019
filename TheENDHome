@@ -76,7 +76,7 @@ section:after {
 
 /* Style the footer */
 footer {
-  background-color: #;
+  background-color: #black;
   padding: 90px;
   text-align: center;
   color: #c76;
@@ -96,7 +96,8 @@ footer {
 
 
 <header>
-  <img src="alenmann.png" alt="logo" style="width:120px;height:114px;"> <h2 style="font-family:Japanese;">The End</h2>
+  <img src="alenmann.png" alt="logo" style="width:120px;height:114px;"> 
+  <img src="alenmann.png" alt="logo" style="width:120px;height:114px;"> 
 </header>
 <nav>
 <input type="button" onclick="window.location.href = 'TheENDHome' ;" value="home"/>
@@ -114,6 +115,7 @@ footer {
 <article>
    <h2>B.</h2>
 </article> 
+<img>
 <img src="images.png" alt="ad" style="width:211.35px;height:135.8px;">
 </img>
 
