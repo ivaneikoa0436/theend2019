@@ -101,7 +101,7 @@ footer {
   border: none;
   color: white;
   float: center;
-  padding: 17px 130px;
+  padding: 17px 110px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
