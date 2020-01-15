@@ -46,7 +46,7 @@ aside {
   height: 300px; /* only for demonstration, should be removed */
   background: #ccc;
   padding: 20px;
-  text-align: center;
+  button-align: center;
 }
 article {
   float: left;
