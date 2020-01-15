@@ -46,6 +46,7 @@ aside {
   height: 300px; /* only for demonstration, should be removed */
   background: #ccc;
   padding: 20px;
+  button-align: center;
 }
 article {
   float: left;
@@ -95,16 +96,50 @@ footer {
   <img src="Untitled.png" alt="logo" style="width:120px;height:168,6px;">
 </header>
 <nav>
+<style>
+.button {
+  background-color: #911C14;
+  border: none;
+  color: white;
+  float: center;
+  padding: 8px 140px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 0px 3px;
+  cursor: pointer;
+}
+</style>
+ <center style="margin-top: -17px;">
 <input type="button" onclick="window.location.href = 'TheENDHome' ;" value="home"/>
 <input type="button" onclick="window.location.href = 'articles' ;" value="articles"/> 
 <input type="button" onclick="window.location.href = 'about us' ;" value="about us"/>
 <input type="button" onclick="window.location.href = 'Events' ;" value="events"/> 
+</center>
 </nav>
 
 <aside> 
+<style>
+.button {
+  background-color: #911C14;
+  border: none;
+  color: white;
+  float: center;
+  padding: 8px 140px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 0px 3px;
+  cursor: pointer;
+}
+</style>
+ <center style="margin-top: -17px;">
 <input type="button" onclick="window.location.href = 'Account' ;" value="Account"/>
 <input type="button" onclick="window.location.href = 'login' ;" value="login"/> 
 <input type="button" onclick="window.location.href = 'registration' ;" value="registration"/>
+</center>
 </aside>
 <article>
    <h2>B.</h2>
