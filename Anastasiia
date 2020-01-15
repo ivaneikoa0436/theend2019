@@ -137,6 +137,9 @@ footer {
 </style>
  <center style="margin-top: -17px;">
  <div class="btn-group">
+<button onclick="window.location.href = 'https://w3docs.com';">Account</button>
+<button onclick="window.location.href = 'https://w3docs.com';">Login</button>
+<button onclick="window.location.href = 'https://w3docs.com';">Registration</button>
 <input type="button" onclick="window.location.href = 'Account' ;" value="Account"/>
 <input type="button" onclick="window.location.href = 'login' ;" value="login"/> 
 <input type="button" onclick="window.location.href = 'registration' ;" value="registration"/>
