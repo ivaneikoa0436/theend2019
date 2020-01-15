@@ -19,7 +19,7 @@ body {
 
 
 header {
-  background-color: #A40302;
+  background-color: #7B0605;
   padding: 1px;
   text-align: center;
   font-size: 35px;
