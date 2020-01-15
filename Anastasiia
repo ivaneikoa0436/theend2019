@@ -46,7 +46,7 @@ aside {
   height: 300px; /* only for demonstration, should be removed */
   background: #ccc;
   padding: 20px;
-  button-align: center;
+  
 }
 article {
   float: left;
@@ -136,9 +136,11 @@ footer {
 }
 </style>
  <center style="margin-top: -17px;">
+ <div class="btn-group">
 <input type="button" onclick="window.location.href = 'Account' ;" value="Account"/>
 <input type="button" onclick="window.location.href = 'login' ;" value="login"/> 
 <input type="button" onclick="window.location.href = 'registration' ;" value="registration"/>
+</div>
 </center>
 </aside>
 <article>
