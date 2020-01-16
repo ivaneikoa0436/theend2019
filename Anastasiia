@@ -34,6 +34,19 @@ nav {
   height: 0px; /* only for demonstration, should be removed */
   background: #848484;
   padding: 20px;
+  .button {
+  background-color: #911C14;
+  border: none;
+  color: white;
+  float: center;
+  padding: 8px 140px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 0px 3px;
+  cursor: pointer;
+}
 }
 
 nav ul {
@@ -47,6 +60,19 @@ aside {
   height: 300px; /* only for demonstration, should be removed */
   background: #ccc;
   padding: 20px;
+  .button {
+  background-color: #911C14;
+  border: none;
+  color: white;
+  float: center;
+  padding: 8px 140px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 15px;
+  margin: 0px 3px;
+  cursor: pointer;
+}
   
 }
 article {
@@ -97,22 +123,8 @@ footer {
   <img src="Untitled.png" alt="logo" style="width:120px;height:168,6px;">
 </header>
 <nav>
-<style>
-.button {
-  background-color: #911C14;
-  border: none;
-  color: white;
-  float: center;
-  padding: 8px 140px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 15px;
-  margin: 0px 3px;
-  cursor: pointer;
-}
-</style>
- <center style="margin-top: -17px;">
+
+<center style="margin-top: -17px;">
 <button class="button" onclick="window.location.href = 'TheENDHome' ;" value="home"/> Home </button>
 <button class="button" onclick="window.location.href = 'articles' ;" value="articles"/> Articles </button>
 <button class="button" onclick="window.location.href = 'about us' ;" value="about us"/> About us </button>
@@ -121,21 +133,7 @@ footer {
 </nav>
 
 <aside> 
-<style>
-.button {
-  background-color: #911C14;
-  border: none;
-  color: white;
-  float: center;
-  padding: 8px 140px;
-  text-align: center;
-  text-decoration: none;
-  display: block;
-  font-size: 15px;
-  margin: 0px 3px;
-  cursor: pointer;
-}
-</style>
+
  <center style="margin-top: -17px;">
  <div class="btn-group">
 <button>Account</button>
