@@ -62,7 +62,6 @@ article {
   height: 300px; 
 }
 
-
 img ul {
   list-style-type: none;
   padding: 0;
