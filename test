@@ -76,7 +76,7 @@ aside {
   
 }
 article {
-  float: left;
+  float: right;
   padding: 20px;
   width: 70%;
   background-color: #000000;
