@@ -127,7 +127,6 @@ footer {
 <input type="button" onclick="window.location.href = 'login' ;" value="login"/> 
 <input type="button" onclick="window.location.href = 'registration' ;" value="registration"/>
 </aside>
-<aside2> asf </aside2>
     
 </section>
 <article2>
