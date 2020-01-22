@@ -42,7 +42,7 @@ nav ul {
 }
 aside {
   float: right;
-  width: 15%;
+  width: 5%;
   height: 300px; 
   background-color: blue;
   padding: 20px;
