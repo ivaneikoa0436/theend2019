@@ -72,11 +72,7 @@ img ul {
   list-style-type: none;
   padding: 0;
 
-section:after {
-  content: "";
-  display: table;
-  clear: both;
-}
+
 
 footer {
   background-color: #;
