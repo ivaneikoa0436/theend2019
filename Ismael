@@ -57,7 +57,7 @@ aside {
 article {
   float: middle;
   padding: 20px;
-  width: 70%;
+  width: 80%;
   background-color: #000000;
   height: 300px; 
 }
