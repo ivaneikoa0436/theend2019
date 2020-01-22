@@ -1,3 +1,61 @@
+// server.js    
+const express = require('express');
+const bodyParser = require('body-parser');
+const cors = require('cors');
+const Chatkit = require('@pusher/chatkit-server');
+
+const app = express();
+
+const chatkit = new Chatkit.default({
+  instanceLocator: 'YOUR_INSTANCE_LOCATOR',
+  key: 'YOUR_SECRET_KEY',
+});
+
+app.use(
+  bodyParser.urlencoded({
+    extended: false,
+  })
+);
+app.use(bodyParser.json());
+app.use(cors());
+
+app.post('/users', (req, res) => {
+  const { username } = req.body;
+
+  chatkit
+    .createUser({
+      id: username,
+      name: username,
+    })
+    .then(() => {
+      res.sendStatus(201);
+    })
+    .catch(err => {
+      if (err.error === 'services/chatkit/user_already_exists') {
+        console.log(`User already exists: ${username}`);
+        res.sendStatus(200);
+      } else {
+        res.status(err.status).json(err);
+      }
+    });
+});
+
+app.post('/authenticate', (req, res) => {
+  const authData = chatkit.authenticate({
+    userId: req.query.user_id,
+  });
+  res.status(authData.status).send(authData.body);
+});
+
+const port = 3001;
+
+app.listen(port, err => {
+  if (err) {
+    console.log(err);
+  } else {
+    console.log(`Running on port ${port}`);
+  }
+});
 <html lang="en">
 
 <head>
@@ -70,3 +128,122 @@
 </body>
 
 </html>
+//index.html
+<script>
+
+const ROOM_ID = 'ROOM_ID';
+
+const usernameForm = document.getElementById('username-form');
+
+usernameForm.addEventListener('submit', e => {
+  e.preventDefault();
+
+  const username = e.target.username.value;
+
+  axios
+    .post('http://localhost:3001/users', { username })
+    .then(() => {
+      document.getElementById('join').style.display = 'none';
+      document.getElementById('chatbox').style.display = 'block';
+
+      const tokenProvider = new Chatkit.TokenProvider({
+        url: 'http://localhost:3001/authenticate',
+      });
+
+      const chatManager = new Chatkit.ChatManager({
+        instanceLocator: 'PUSHER_INSTANCE_LOCATOR',
+        userId: username,
+        tokenProvider,
+      });
+
+      chatManager
+        .connect()
+        .then(currentUser => {
+          currentUser
+            .subscribeToRoom({
+              roomId: ROOM_ID,
+              messageLimit: 100,
+            })
+            .catch(error => console.error(error));
+    })
+    .catch(error => console.error(error));
+});
+  </script>
+  .subscribeToRoom({
+      roomId: ROOM_ID,
+      hooks: {
+        onMessage: message => {
+          const { senderId, text } = message;
+
+          const messageList = document.getElementById('messageList');
+          const messageUser = document.createElement('dt');
+          const messageBody = document.createElement('dd');
+
+          messageUser.appendChild(document.createTextNode(senderId));
+          messageBody.appendChild(document.createTextNode(text));
+
+          messageList.appendChild(messageUser);
+          messageList.appendChild(messageBody);
+        },
+        onPresenceChanged: (state, user) => {
+          if (currentUser.id !== user.id) {
+            addUserElement(user);
+          }
+
+          if (state.current === 'offline') {
+            document.getElementById(user.id).remove()
+          }
+        },
+      },
+      messageLimit: 100,
+    })
+    .then(() => {
+      currentUser.rooms[0].users.forEach(user => {
+        if (user.presence.state === 'online') {
+          addUserElement(user);
+        }
+      });
+
+      const sendMessage = document.getElementById('sendMessage');
+      sendMessage.addEventListener('submit', e => {
+        e.preventDefault();
+
+        const message = e.target.message.value;
+
+        currentUser.sendMessage({
+          text: message,
+          roomId: ROOM_ID,
+        });
+
+        e.target.message.value = '';
+      });
+    })
+    .catch(error => console.error(error));
+...
+currentUser.rooms[0].users.forEach(user => {
+    if (user.presence.state === 'online') {
+        addUserElement(user);
+    }
+});
+...
+function addUserElement(user) {
+  const onlineUsers = document.getElementById('onlineUsers');
+  const singleUser = document.createElement('li');
+
+  singleUser.className = 'list-group-item';
+  singleUser.id = user.id;
+
+  singleUser.appendChild(document.createTextNode(user.name));
+  onlineUsers.appendChild(singleUser);
+}
+...,
+onPresenceChanged: (state, user) => {
+  if (currentUser.id !== user.id) {
+    addUserElement(user);
+  }
+
+  if (state.current === 'offline') {
+    document.getElementById(user.id).remove()
+  }
+},
+...
