@@ -40,7 +40,7 @@ nav ul {
   padding: 1;
 
 }
-aside {
+aside2 {
   float: right;
   width: 15%;
   height: 300px; 
