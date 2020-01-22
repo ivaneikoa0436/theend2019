@@ -31,7 +31,7 @@ nav {
   float: ;
   width: 100%;
   height: 0px; 
-  background: #848484;
+  background: #red;
   padding: 20px;
 }
 
