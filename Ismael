@@ -40,7 +40,7 @@ nav ul {
   padding: 1;
 
 }
-.column {
+aside {
   float: right;
   width: 15%;
   height: 300px; 
@@ -66,7 +66,11 @@ img ul {
   list-style-type: none;
   padding: 0;
 
-
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 footer {
   background-color: #;
