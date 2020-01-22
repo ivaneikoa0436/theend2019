@@ -132,7 +132,7 @@ footer {
 </center>
 </nav>
 
-<aside> 
+<aside class="left"> 
 
  <center style="margin-top: -17px;">
  <div class="btn-group">
@@ -231,7 +231,7 @@ body {
 
 </article> 
 
-<section>
+<section class="right">
 <img src="images.png" alt="ad" style="width:211.35px;height:135.8px;">
 </section>
 
