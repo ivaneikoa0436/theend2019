@@ -150,7 +150,7 @@ footer {
 <style>
 body {
   margin: 0 auto;
-  max-width: 1800px;
+  max-width: 2000px;
   padding: 0 20px;
 }
 
