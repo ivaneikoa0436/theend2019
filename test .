@@ -1,4 +1,6 @@
-/* CSS Document */
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+< style>
 body {
     font:12px arial;
     color: #222;
@@ -54,8 +56,7 @@ a {
 .logout { float:right; }
   
 .msgln { margin:0 0 2px 0; }
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+</style>
 <head>
 <title>Chat - Customer Module</title>
 <link type="text/css" rel="stylesheet" href="style.css" />
