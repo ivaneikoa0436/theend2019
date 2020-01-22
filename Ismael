@@ -95,11 +95,14 @@ footer {
 </style>
 </head>
 <body>
+</head>
+<body>
 
 
 
 <header>
-  <h2> <img scr="alenmann3"> </h2>
+  <img src="bruh.png" alt="logo" style="width:120px;height:168,6px;">
+  
 </header>
 <nav>
 <style>
