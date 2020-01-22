@@ -62,7 +62,7 @@ article {
   height: 300px; 
 }
 article2 {
-  float: bottom;
+  float: none;
   padding: 20;
   width: 100%;
   background-color: red;
