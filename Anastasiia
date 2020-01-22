@@ -57,7 +57,7 @@ nav ul {
 aside {
   float: left;
   width: 15%;
- 
+ height: ;
   background: #ccc;
   padding: 20px;
   .button {
@@ -142,9 +142,8 @@ footer {
 </div>
 </center>
 </aside>
-<article>
-   <!DOCTYPE html>
-<html>
+<article> 
+<div id="main">
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
@@ -228,7 +227,7 @@ body {
 
 </body>
 
-
+</div>
 </article> 
 
 <section class="right">
