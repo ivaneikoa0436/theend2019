@@ -66,11 +66,7 @@ img ul {
   list-style-type: none;
   padding: 0;
 
-section:after {
-  content: "";
-  display: table;
-  clear: both;
-}
+
 
 footer {
   background-color: #;
@@ -80,7 +76,7 @@ footer {
 }
 
 @media only screen and (max-width: 600px) {
-  nav, article {
+  nav, article,  {
     width: 100%;
     height: auto;
   }
