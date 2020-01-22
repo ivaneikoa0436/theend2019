@@ -31,7 +31,7 @@ nav {
   float: ;
   width: 100%;
   height: 0px; 
-  background: #black;
+  background: black;
   padding: 20px;
 }
 
@@ -47,19 +47,19 @@ aside {
   background-image: url("FOREST2.jpg");
   padding: 20px;
 }
+aside {
+  float: left;
+  width: 15%;
+  height: 300px; 
+  background-image: url("FOREST2.jpg");
+  padding: 20px;
+}
 article {
   float: left;
   padding: 20px;
   width: 70%;
   background-color: #000000;
   height: 300px; 
-}
-img {
-  float: left;
-  width: 15%;
-  height: 300px; 
-  background: #ccc;
-  padding: 20px;
 }
 
 img ul {
@@ -87,12 +87,9 @@ footer {
 }
 </style>
 </head>
-<body>
-
-
-
 <header>
-  <h2>A</h2>
+  <img src="bruh.png" alt="logo" style="width:120px;height:168,6px;">
+  
 </header>
 <nav>
 <style>
@@ -126,10 +123,7 @@ footer {
 </aside>
 <article>
    <h2>B.</h2>
-</article> 
-<img>
-    
-</img>
+</article>     
 </section>
 
 <footer>
