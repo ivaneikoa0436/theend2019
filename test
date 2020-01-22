@@ -47,19 +47,6 @@ nav {
   margin: 0px 3px;
   cursor: pointer;
 }
-
-  .button {
-  background-color: #911C14;
-  border: none;
-  color: white;
-  float: center;
-  padding: 8px 140px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 15px;
-  margin: 0px 3px;
-  cursor: pointer;
 }
 
 nav ul {
@@ -147,6 +134,13 @@ footer {
 
 <aside> 
 
+ <center style="margin-top: -17px;">
+ <div class="btn-group">
+<button>Account</button>
+<button>Login</button>
+<button>Registration</button>
+</div>
+</center>
 </aside>
 <article>
    <h2>B.</h2>
