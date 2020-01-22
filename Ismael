@@ -61,7 +61,13 @@ article {
   background-color: #000000;
   height: 300px; 
 }
-
+article2 {
+  float: bottom;
+  padding: 20;
+  width: 100%;
+  background-color: red;
+  height: 20px;
+}
 img ul {
   list-style-type: none;
   padding: 0;
@@ -122,9 +128,9 @@ footer {
 <input type="button" onclick="window.location.href = 'registration' ;" value="registration"/>
 </aside>
 <aside2> asf <aside2>
-<article>
+<article2>
    <h2>B.</h2>
-</article>     
+</article2>     
 </section>
 
 <footer>
