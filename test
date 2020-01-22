@@ -47,6 +47,19 @@ nav {
   margin: 0px 3px;
   cursor: pointer;
 }
+
+  .button {
+  background-color: #911C14;
+  border: none;
+  color: white;
+  float: center;
+  padding: 8px 140px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 0px 3px;
+  cursor: pointer;
 }
 
 nav ul {
@@ -58,7 +71,7 @@ aside {
   float: left;
   width: 15%;
   height: 300px; /* only for demonstration, should be removed */
-  background-image: url("forest2");
+  background-image: url("forest2.jpg");
   padding: 20px;
   .button {
   background-color: #911C14;
