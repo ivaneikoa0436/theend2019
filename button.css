@@ -1,3 +1,19 @@
+body {
+    font:12px arial;
+    color: #000000;
+    text-align:center; }
+  
+form, p, span {
+    margin:0;
+    padding:0; }
+  
+input { font:12px arial; }
+  
+a {
+    color:#000000;
+    text-decoration:none; }
+  
+    a:hover { text-decoration:underline; }
 .button {
   background-color: #911C14;
   border: none;
