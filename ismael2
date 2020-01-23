@@ -106,6 +106,9 @@ footer {
 
 <link type="text/css" rel="stylesheet" href="button.css" />
 <link type="text/css" rel="stylesheet" href="button2.css" />
+<link type="text/css" rel="stylesheet" href="button3.css" />
+<link type="text/css" rel="stylesheet" href="button4.css" />
+
 
 
 <button class="button" onclick="window.location.href = 'TheENDHome' ;" value="home"/> Home </button>
@@ -118,8 +121,8 @@ footer {
 <section>
 <aside> 
 <button class="button2" onclick="window.location.href = 'Account' ;" value="Account"/> account </button2>
-<button class="button2" onclick="window.location.href = 'login' ;" value="login"/> login...... </button2>
-<button class="button2" onclick="window.location.href = 'registration' ;" value="registration"/> registration </button2>
+<button class="button3" onclick="window.location.href = 'login' ;" value="login"/> login </button2>
+<button class="button4" onclick="window.location.href = 'registration' ;" value="registration"/> registration </button2>
 </aside>
 <aside2> </aside2>
 </section>
