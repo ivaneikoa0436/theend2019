@@ -127,12 +127,11 @@ footer {
 <input type="button" onclick="window.location.href = 'login' ;" value="login"/> 
 <input type="button" onclick="window.location.href = 'registration' ;" value="registration"/>
 </aside>
-<aside2> asf <aside2>
+<aside2> </aside2>
+</section>
 <article2>
    <h2>B.</h2>
 </article2>     
-</section>
-
 <footer>
   <h2>E</h2>
 </footer>
