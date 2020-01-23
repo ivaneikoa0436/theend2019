@@ -60,8 +60,9 @@ article {
 section {
   float: left;
   width: 15%;
-  height: 450px; /* only for demonstration, should be removed */
+  height: 1000px; /* only for demonstration, should be removed */
   background-image: url("forest2side.jpg");
+  position: sticky; 
   
 }
 
