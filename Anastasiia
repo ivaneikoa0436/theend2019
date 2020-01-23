@@ -179,7 +179,7 @@ $(document).ready(function(){
 </article> 
 
 <section class="right">
-<img src="images.png" alt="ad" style="width:211.35px;height:135.8px;">
+<img src="images.png" alt="ad" style="width:205px;height:131,9px;">
 </section>
 
 
