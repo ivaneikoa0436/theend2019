@@ -84,6 +84,8 @@ footer {
   padding: 90px;
   text-align: center;
   color: #c76;
+  height:60px;
+  width:100%;
 }
 
 @media only screen and (max-width: 600px) {
