@@ -44,23 +44,25 @@ nav ul {
 aside {
   float: left;
   width: 15%;
-  height: 450px; /* only for demonstration, should be removed */
+  height: 1000px; /* only for demonstration, should be removed */
   background-image: url("forest2.jpg");
   padding: 50px;
+  position: sticky; 
 }
 article {
   float: left;
   padding: 30px;
   width: 70%;
   background-color: #000000;
-   height: 450px; 
+   height: 1000px; 
   
 }
 section {
   float: left;
   width: 15%;
-  height: 450px; /* only for demonstration, should be removed */
+  height: 1000px; /* only for demonstration, should be removed */
   background-image: url("forest2side.jpg");
+  position: sticky; 
   
 }
 
@@ -71,13 +73,7 @@ img ul {
 
 
 
-/* Style the footer */
-footer {
-  background-color: #black;
-  padding: 90px;
-  text-align: center;
-  color: #c76;
-}
+
 
 /* - Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
 @media (max-width: 600px) {
@@ -127,9 +123,7 @@ footer {
 
 
 
-<footer>
-  <h2>E</h2>
-</footer>
+
 
 </body>
 </html>
