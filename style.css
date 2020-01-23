@@ -1,7 +1,7 @@
 /* CSS Document */
 body {
     font:12px arial;
-    color: #222;
+    color: #000000;
     text-align:center;
     padding:35px; }
   
@@ -12,7 +12,7 @@ form, p, span {
 input { font:12px arial; }
   
 a {
-    color:#0000FF;
+    color:#000000;
     text-decoration:none; }
   
     a:hover { text-decoration:underline; }
@@ -20,9 +20,9 @@ a {
 #wrapper, #loginform {
     margin:0 auto;
     padding-bottom:25px;
-    background:#EBF4FB;
+    background:#ffffff;
     width:504px;
-    border:1px solid #ACD8F0; }
+    border:1px solid #000000; }
   
 #loginform { padding-top:18px; }
   
@@ -33,15 +33,15 @@ a {
     margin:0 auto;
     margin-bottom:25px;
     padding:10px;
-    background:#fff;
+    background:#ffffff;
     height:270px;
     width:430px;
-    border:1px solid #ACD8F0;
+    border:1px solid #000000;
     overflow:auto; }
   
 #usermsg {
     width:395px;
-    border:1px solid #ACD8F0; }
+    border:1px solid #000000; }
   
 #submit { width: 60px; }
   
