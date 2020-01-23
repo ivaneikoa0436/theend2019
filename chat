@@ -30,9 +30,9 @@ header {
 nav {
   float: ;
   width: 100%;
-  height: 0px; /* only for demonstration, should be removed */
-  background: #848484;
-  padding: 20px;
+  height: 50px; /* only for demonstration, should be removed */
+  background: #000000;
+  padding: 0px;
   
 }
 
@@ -44,24 +44,25 @@ nav ul {
 aside {
   float: left;
   width: 15%;
-  height: 450px; /* only for demonstration, should be removed */
+  height: 1000px; /* only for demonstration, should be removed */
   background-image: url("forest2.jpg");
   padding: 50px;
+  position: sticky; 
 }
 article {
   float: left;
   padding: 30px;
   width: 70%;
   background-color: #000000;
-   height: 450px; 
+   height: 1000px; 
   
 }
 section {
   float: left;
   width: 15%;
-  height: 450px; /* only for demonstration, should be removed */
+  height: 1000px; /* only for demonstration, should be removed */
   background-image: url("forest2side.jpg");
-  
+  position: sticky; 
 }
 
 /* Style the list inside the menu */
@@ -71,13 +72,7 @@ img ul {
 
 
 
-/* Style the footer */
-footer {
-  background-color: #black;
-  padding: 90px;
-  text-align: center;
-  color: #c76;
-}
+
 
 /* - Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
 @media (max-width: 600px) {
@@ -97,13 +92,13 @@ footer {
   
 </header>
 <nav>
+<link type="text/css" rel="stylesheet" href="button.css" />
 
-<center style="margin-top: -17px;">
 <button class="button" onclick="window.location.href = 'TheENDHome' ;" value="home"/> Home </button>
 <button class="button" onclick="window.location.href = 'chat' ;" value="chat"/> Chat </button>
 <button class="button" onclick="window.location.href = 'about us' ;" value="about us"/> About us </button>
 <button class="button" onclick="window.location.href = 'Events' ;" value="events"/> Events </button>
-</center>
+
 </nav>
 
 <aside> 
@@ -152,9 +147,7 @@ $(document).ready(function(){
 
 
 
-<footer>
-  <h2>E</h2>
-</footer>
+
 
 </body>
 </html>
