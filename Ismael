@@ -101,15 +101,15 @@ footer {
   
 </header>
 <nav>
-<style>
+
 <link type="text/css" rel="stylesheet" href="button.css" />
-</style>
- <center style="margin-top: -17px;">
+
+
 <button class="button" onclick="window.location.href = 'TheENDHome' ;" value="home"/> Home </button>
 <button class="button" onclick="window.location.href = 'articles' ;" value="articles"/> Articles </button>
 <button class="button" onclick="window.location.href = 'about us' ;" value="about us"/> About us </button>
 <button class="button" onclick="window.location.href = 'Events' ;" value="events"/> Events </button>
-</center>
+
 </nav>
 
 <section>
