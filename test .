@@ -147,7 +147,7 @@ $(document).ready(function(){
 </article> 
 
 <section>
-<img src="images.png" alt="ad" style="width:205px;height:131.9px;">
+<img src="images.png" alt="ad" style="width:200px;height:128,6px;">
 </section>
 
 
