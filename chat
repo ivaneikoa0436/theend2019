@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -34,7 +33,7 @@ nav {
   height: 0px; /* only for demonstration, should be removed */
   background: #848484;
   padding: 20px;
- 
+  
 }
 
 nav ul {
@@ -45,24 +44,23 @@ nav ul {
 aside {
   float: left;
   width: 15%;
-  height: 300px; /* only for demonstration, should be removed */
-  background: #ccc;
+  height: 450px; /* only for demonstration, should be removed */
+  background-image: url("forest2.jpg");
   padding: 20px;
- 
-  
 }
 article {
   float: left;
   padding: 20px;
   width: 70%;
   background-color: #000000;
-  height: 300px; /* only for demonstration, should be removed */
+   height: 450px; 
+  
 }
 section {
   float: left;
   width: 15%;
-  height: 300px; /* only for demonstration, should be removed */
-  background: #ccc;
+  height: 450px; /* only for demonstration, should be removed */
+  background-image: url("forest2side.jpg");
   
 }
 
@@ -95,14 +93,14 @@ footer {
 
 
 <header>
-  <img src="alenmann3.png" alt="logo" style="width:120px;height:168,6px;">
-  <img src="Untitled.png" alt="logo" style="width:120px;height:168,6px;">
+  <img src="bruh.png" alt="logo" style="width:120px;height:168,6px;">
+  
 </header>
 <nav>
 
 <center style="margin-top: -17px;">
 <button class="button" onclick="window.location.href = 'TheENDHome' ;" value="home"/> Home </button>
-<button class="button" onclick="window.location.href = 'articles' ;" value="articles"/> Articles </button>
+<button class="button" onclick="window.location.href = 'chat' ;" value="chat"/> Chat </button>
 <button class="button" onclick="window.location.href = 'about us' ;" value="about us"/> About us </button>
 <button class="button" onclick="window.location.href = 'Events' ;" value="events"/> Events </button>
 </center>
@@ -119,11 +117,37 @@ footer {
 </center>
 </aside>
 <article>
-   <h2>B.</h2>
+
+<head>
+<title>Chat - Customer Module</title>
+<link type="text/css" rel="stylesheet" href="style.css" />
+</head>
+ 
+<div id="wrapper">
+    <div id="menu">
+    <div style="clear:both"></div>
+</div>
+     
+    <div id="chatbox"></div>
+     
+    <form name="message" action="">
+        <input name="usermsg" type="text" id="usermsg" size="63" />
+        <input name="submitmsg" type="submit"  id="submitmsg" value="Send" />
+    </form>
+</div>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3/jquery.min.js"></script>
+<script type="text/javascript">
+// jQuery Document
+$(document).ready(function(){
+ 
+});
+</script>
+</body>
+</html>
 </article> 
 
 <section>
-<img src="images.png" alt="ad" style="width:211.35px;height:135.8px;">
+<img src="images.png" alt="ad" style="width:200px;height:128,6px;">
 </section>
 
 
