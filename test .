@@ -51,9 +51,9 @@ aside {
 article {
   float: left;
   padding: 20px;
-  width: 70%;
+  width: 100%;
   background-color: #000000;
-  height: 500px;
+  height: 450px;
 }
 section {
   float: left;
@@ -70,13 +70,6 @@ img ul {
 
 
 
-/* Style the footer */
-footer {
-  background-color: #black;
-  padding: 90px;
-  text-align: center;
-  color: #c76;
-}
 
 /* - Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
 @media (max-width: 600px) {
@@ -152,9 +145,6 @@ $(document).ready(function(){
 
 
 
-<footer>
-  <h2>E</h2>
-</footer>
 
 </body>
 </html>
