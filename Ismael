@@ -26,6 +26,9 @@ header {
   color: white;
 }
 
+img {
+  border: 8px;
+}
 
 nav {
   float: ;
