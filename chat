@@ -30,9 +30,9 @@ header {
 nav {
   float: ;
   width: 100%;
-  height: 0px; /* only for demonstration, should be removed */
+  height: 50px; /* only for demonstration, should be removed */
   background: #848484;
-  padding: 20px;
+  padding: 0px;
   
 }
 
@@ -97,13 +97,13 @@ footer {
   
 </header>
 <nav>
+<link type="text/css" rel="stylesheet" href="button.css" />
 
-<center style="margin-top: -17px;">
 <button class="button" onclick="window.location.href = 'TheENDHome' ;" value="home"/> Home </button>
 <button class="button" onclick="window.location.href = 'chat' ;" value="chat"/> Chat </button>
 <button class="button" onclick="window.location.href = 'about us' ;" value="about us"/> About us </button>
 <button class="button" onclick="window.location.href = 'Events' ;" value="events"/> Events </button>
-</center>
+
 </nav>
 
 <aside> 
