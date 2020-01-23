@@ -82,7 +82,7 @@ footer {
 /* - Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
 @media (max-width: 600px) {
   nav, article {
-    width: 50%;
+    width: 100%;
     height: auto;
   }
 }
@@ -108,7 +108,7 @@ footer {
 
 <aside> 
 
- <center style="margin-top: -17px;">
+ <center style="margin-top: 1px;">
  <div class="btn-group">
 <button>Account</button>
 <button>Login</button>
