@@ -43,16 +43,18 @@ nav ul {
 aside2 {
   float: right;
   width: 15%;
-  height: 300px; 
+  height: 100%; 
   background-image: url("FOREST2side.jpg");
   padding: 20px;
+  position: sticky; 
 }
 aside {
   float: left;
   width: 15%;
-  height: 300px; 
+  height: 100%; 
   background-image: url("FOREST2.jpg");
   padding: 20px;
+  position: sticky;
 }
 article {
   float: middle;
