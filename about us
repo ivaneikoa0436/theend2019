@@ -46,7 +46,7 @@ aside {
   width: 15%;
   height: 450px; /* only for demonstration, should be removed */
   background-image: url("forest2.jpg");
-  padding: 20px;
+  padding: 50px;
 }
 article {
   float: left;
