@@ -117,7 +117,7 @@ footer {
 </center>
 </aside>
 <article>
-
+<link type="text/css" rel="stylesheet" href="style.css" />
 
 </article> 
 
