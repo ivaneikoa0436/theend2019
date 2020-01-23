@@ -120,7 +120,7 @@ footer {
 </article> 
 
 <section>
-<img src="images.png" alt="ad" style="width:211.35px;height:135.8px;">
+<img src="images.png" alt="ad" border="2" style="width:211.35px;height:135.8px;">
 </section>
 
 
