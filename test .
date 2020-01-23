@@ -44,7 +44,7 @@ nav ul {
 aside {
   float: left;
   width: 15%;
-  height: 400px; /* only for demonstration, should be removed */
+  height: 450px; /* only for demonstration, should be removed */
   background-image: url("forest2.jpg");
   padding: 20px;
 }
@@ -58,7 +58,7 @@ article {
 section {
   float: left;
   width: 15%;
-  height: 400px; /* only for demonstration, should be removed */
+  height: 450px; /* only for demonstration, should be removed */
   background-image: url("forest2side.jpg");
   
 }
