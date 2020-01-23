@@ -108,7 +108,7 @@ footer {
 
 <aside> 
 
- <center style="margin-top: 1px;">
+ <center style="margin-top: -17px;">
  <div class="btn-group">
 <button>Account</button>
 <button>Login</button>
