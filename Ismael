@@ -114,6 +114,7 @@ footer {
 
 <section>
 <aside> 
+<link type="text/css" rel="stylesheet" href="button.css" />
 <input type="button" onclick="window.location.href = 'Account' ;" value="Account"/>
 <input type="button" onclick="window.location.href = 'login' ;" value="login"/> 
 <input type="button" onclick="window.location.href = 'registration' ;" value="registration"/>
