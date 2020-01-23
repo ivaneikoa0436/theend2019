@@ -108,11 +108,9 @@ img ul {
 
 <aside> 
 
- 
- <div class="btn-group">
-<button>Account</button>
-<button>Login</button>
-<button>Registration</button>
+<button class="button2" onclick="window.location.href = 'Account' ;" value="Account"/> account </button2>
+<button class="button3" onclick="window.location.href = 'login' ;" value="login"/> login </button2>
+<button class="button4" onclick="window.location.href = 'registration' ;" value="registration"/> registration </button2>
 </div>
 
 </aside>
