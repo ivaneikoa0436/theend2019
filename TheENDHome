@@ -119,15 +119,9 @@ img ul {
 </article> 
 
 <section>
-<style>
-#nikeimg
-{
-  border-color: #911C14;
- 
-  border-style: solid;
-}
+
 </style>
-<img id="nikeimg" src="hi.png" alt="ad" style="width:190px;height:612,3px;">
+<img id="nikeimg" src="hi.png" alt="ad" style="width:170px;height:547,px;">
 </section>
 
 
