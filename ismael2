@@ -99,7 +99,7 @@ footer {
 </style>
 </head>
 <header>
-  <img src="bruh.png" alt="logo" style="width:120px;height:168,6px;">
+  <img src="bruh.png" alt="logo" style="width:120px;height:auto;">
   
 </header>
 <nav>
