@@ -111,10 +111,10 @@ footer {
 
 
 
-<button class="button" onclick="window.location.href = 'TheENDHome' ;" value="home"/> Home </button>
+<button class="button" onclick="window.location.href = 'TheENDHome' ;" value="home"/> Home<font color="red">...</font> </button>
 <button class="button" onclick="window.location.href = 'articles' ;" value="articles"/> Articles </button>
-<button class="button" onclick="window.location.href = 'about us' ;" value="about us"/> About us </button>
-<button class="button" onclick="window.location.href = 'Events' ;" value="events"/> Events </button>
+<button class="button" onclick="window.location.href = 'about us' ;" value="about us"/> About us <font color="red">.</font> </button>
+<button class="button" onclick="window.location.href = 'Events' ;" value="events"/> Events<font color="red">...</font> </button>
 
 </nav>
 
@@ -122,13 +122,14 @@ footer {
 <aside> 
 <button class="button2" onclick="window.location.href = 'Account' ;" value="Account"/> account </button2>
 <button class="button3" onclick="window.location.href = 'login' ;" value="login"/> login </button2>
-<button class="button4" onclick="window.location.href = 'registration' ;" value="registration"/> registration </button2>
+<button class="button4" onclick="window.location.href = 'registration' ;" value="registration"/> registration  </button2>
 </aside>
 <aside2> </aside2>
 </section>
     
 <article> bruh </article>
 </body>
-<footer> gvhbjk </footer
+<footer>   <img src="twitter.png" alt="logo" style="width:120px;height:auto;">
+ </footer
 </html>
 
