@@ -64,6 +64,12 @@ section {
   background-image: url("forest2side.jpg");
   position: sticky; 
   
+  #nikeimg
+{
+  border-color: #911C14
+  border
+}
+  
 }
 
 /* Style the list inside the menu */
@@ -120,7 +126,7 @@ img ul {
 </article> 
 
 <section>
-<img src="images.png" alt="ad" style="width:200px;height:128,6px;border-color:#911C14;">
+<img id="nikeimg" src="images.png" alt="ad" style="width:200px;height:128,6px;">
 </section>
 
 
