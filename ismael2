@@ -32,7 +32,7 @@ nav {
   width: 100%;
   height: 60px; 
   background: black;
-  padding: 20px;
+  padding: 0px;
 }
 
 nav ul {
@@ -61,6 +61,8 @@ article {
   width: 70%;
   background-color: white;
   height: 1000px; 
+  justify-content:center;
+  margin:auto;
 }
 article2 {
   float: initial;
@@ -97,12 +99,16 @@ footer {
 </style>
 </head>
 <header>
-  <img src="bruh.png" alt="logo" style="width:120px;height:168,6px;">
+  <img src="bruh.png" alt="logo" style="width:120px;height:auto;">
   
 </header>
 <nav>
 
 <link type="text/css" rel="stylesheet" href="button.css" />
+<link type="text/css" rel="stylesheet" href="button2.css" />
+<link type="text/css" rel="stylesheet" href="button3.css" />
+<link type="text/css" rel="stylesheet" href="button4.css" />
+
 
 
 <button class="button" onclick="window.location.href = 'TheENDHome' ;" value="home"/> Home </button>
@@ -114,16 +120,13 @@ footer {
 
 <section>
 <aside> 
-<link type="text/css" rel="stylesheet" href="button.css" />
-<input type="button" onclick="window.location.href = 'Account' ;" value="Account"/>
-<input type="button" onclick="window.location.href = 'login' ;" value="login"/> 
-<input type="button" onclick="window.location.href = 'registration' ;" value="registration"/>
+<button class="button2" onclick="window.location.href = 'Account' ;" value="Account"/> account </button2>
+<button class="button3" onclick="window.location.href = 'login' ;" value="login"/> login </button2>
+<button class="button4" onclick="window.location.href = 'registration' ;" value="registration"/> registration </button2>
 </aside>
 <aside2> </aside2>
 </section>
-<article2>
-   <h2>B.</h2>
-</article2>     
+    
 <article> bruh </article>
 </body>
 <footer> gvhbjk </footer

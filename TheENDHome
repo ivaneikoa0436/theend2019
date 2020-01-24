@@ -30,9 +30,9 @@ header {
 nav {
   float: ;
   width: 100%;
-  height: 0px; /* only for demonstration, should be removed */
-  background: #848484;
-  padding: 20px;
+  height: 50px; /* only for demonstration, should be removed */
+  background: #000000;
+  padding: 0px;
   
 }
 
@@ -44,24 +44,25 @@ nav ul {
 aside {
   float: left;
   width: 15%;
-  height: 450px; /* only for demonstration, should be removed */
+  height: 1000px; /* only for demonstration, should be removed */
   background-image: url("forest2.jpg");
   padding: 50px;
+  position: sticky; 
 }
 article {
   float: left;
-  padding: 20px;
+  padding: 30px;
   width: 70%;
   background-color: #000000;
-   height: 450px; 
+   height: 1000px; 
   
 }
 section {
   float: left;
   width: 15%;
-  height: 450px; /* only for demonstration, should be removed */
+  height: 1000px; /* only for demonstration, should be removed */
   background-image: url("forest2side.jpg");
-  
+  position: sticky; 
 }
 
 /* Style the list inside the menu */
@@ -71,13 +72,7 @@ img ul {
 
 
 
-/* Style the footer */
-footer {
-  background-color: #black;
-  padding: 90px;
-  text-align: center;
-  color: #c76;
-}
+
 
 /* - Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
 @media (max-width: 600px) {
@@ -95,41 +90,43 @@ footer {
 <header>
   <img src="bruh.png" alt="logo" style="width:120px;height:168,6px;">
   
+  
 </header>
 <nav>
+<link type="text/css" rel="stylesheet" href="button.css" />
+<link type="text/css" rel="stylesheet" href="button2.css" />
+<link type="text/css" rel="stylesheet" href="button3.css" />
+<link type="text/css" rel="stylesheet" href="button4.css" />
 
-<center style="margin-top: -17px;">
 <button class="button" onclick="window.location.href = 'TheENDHome' ;" value="home"/> Home </button>
 <button class="button" onclick="window.location.href = 'chat' ;" value="chat"/> Chat </button>
 <button class="button" onclick="window.location.href = 'about us' ;" value="about us"/> About us </button>
 <button class="button" onclick="window.location.href = 'Events' ;" value="events"/> Events </button>
-</center>
+
 </nav>
 
 <aside> 
 
- <center style="margin-top: -17px;">
- <div class="btn-group">
-<button>Account</button>
-<button>Login</button>
-<button>Registration</button>
+<button class="button2" onclick="window.location.href = 'Account' ;" value="Account"/> account </button2>
+<button class="button3" onclick="window.location.href = 'login' ;" value="login"/> login </button2>
+<button class="button4" onclick="window.location.href = 'registration' ;" value="registration"/> registration </button2>
 </div>
-</center>
+
 </aside>
 <article>
-
+<link type="text/css" rel="stylesheet" href="style.css" />
 
 </article> 
 
 <section>
-<img src="images.png" alt="ad" style="width:200px;height:128,6px;">
+
+</style>
+<img id="nikeimg" src="hi.png" alt="ad" style="width:170px;height:547,px;margin-right:-20px;">
 </section>
 
 
 
-<footer>
-  <h2>E</h2>
-</footer>
+
 
 </body>
 </html>

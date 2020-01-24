@@ -1,0 +1,32 @@
+body {
+    font:12px arial;
+    color: #000000;
+    text-align:center; }
+  
+form, p, span {
+    margin:0;
+    padding:0; }
+  
+input { font:12px arial; }
+  
+a {
+    color:#000000;
+    text-decoration:none; }
+  
+    a:hover { text-decoration:underline; }
+.button4 {
+  background-color: #911C14;
+  border: none;
+  color: white;
+  margin-top: -17px;
+  padding: 8px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 3px 3px;
+  cursor: pointer;
+  width: 90;
+  height: 90;
+  margin-left: -4px;
+}
