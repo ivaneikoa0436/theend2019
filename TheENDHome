@@ -120,7 +120,7 @@ img ul {
 </article> 
 
 <section>
-<img src="images.png" alt="ad" style="width:200px;height:128,6px;">
+<img src="images.png" alt="ad" style="width:200px;height:128,6px;border-color:#911C14;">
 </section>
 
 
