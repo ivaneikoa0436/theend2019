@@ -63,7 +63,6 @@ section {
   height: 1000px; /* only for demonstration, should be removed */
   background-image: url("forest2side.jpg");
   position: sticky; 
-  
 }
 
 /* Style the list inside the menu */
@@ -91,9 +90,13 @@ img ul {
 <header>
   <img src="bruh.png" alt="logo" style="width:120px;height:168,6px;">
   
+  
 </header>
 <nav>
 <link type="text/css" rel="stylesheet" href="button.css" />
+<link type="text/css" rel="stylesheet" href="button2.css" />
+<link type="text/css" rel="stylesheet" href="button3.css" />
+<link type="text/css" rel="stylesheet" href="button4.css" />
 
 <button class="button" onclick="window.location.href = 'TheENDHome' ;" value="home"/> Home </button>
 <button class="button" onclick="window.location.href = 'chat' ;" value="chat"/> Chat </button>
@@ -104,11 +107,9 @@ img ul {
 
 <aside> 
 
- 
- <div class="btn-group">
-<button>Account</button>
-<button>Login</button>
-<button>Registration</button>
+<button class="button2" onclick="window.location.href = 'Account' ;" value="Account"/> account </button2>
+<button class="button3" onclick="window.location.href = 'login' ;" value="login"/> login </button2>
+<button class="button4" onclick="window.location.href = 'registration' ;" value="registration"/> registration </button2>
 </div>
 
 </aside>
@@ -118,7 +119,9 @@ img ul {
 </article> 
 
 <section>
-<img src="images.png" alt="ad" style="width:200px;height:128,6px;">
+
+</style>
+<img id="nikeimg" src="hi.png" alt="ad" style="width:170px;height:547,px;margin-right:-20px;">
 </section>
 
 
