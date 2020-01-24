@@ -63,13 +63,14 @@ section {
   height: 1000px; /* only for demonstration, should be removed */
   background-image: url("forest2side.jpg");
   position: sticky; 
-  
+<style>
   #nikeimg
 {
   border-color: #911C14
+  border-radius: 10px;
   border
 }
-  
+</style>
 }
 
 /* Style the list inside the menu */
