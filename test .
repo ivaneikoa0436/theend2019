@@ -93,12 +93,20 @@ img ul {
   
 </header>
 <nav>
+<link type="text/css" rel="stylesheet" href="search.css" />
 <link type="text/css" rel="stylesheet" href="button.css" />
 <link type="text/css" rel="stylesheet" href="button2.css" />
 <link type="text/css" rel="stylesheet" href="button3.css" />
 <link type="text/css" rel="stylesheet" href="button4.css" />
-
-<button class="button" onclick="window.location.href = 'TheENDHome' ;" value="home"/> Home </button>
+<div class="topnav">
+<div class="search-container">
+    <form action="/action_page.php">
+      <input type="text" placeholder="Search.." name="search">
+      <button type="submit"><i class="fa fa-search"></i></button>
+    </form>
+  </div>
+</div
+.<button class="button" onclick="window.location.href = 'TheENDHome' ;" value="home"/> Home </button>
 <button class="button" onclick="window.location.href = 'chat' ;" value="chat"/> Chat </button>
 <button class="button" onclick="window.location.href = 'about us' ;" value="about us"/> About us </button>
 <button class="button" onclick="window.location.href = 'Events' ;" value="events"/> Events </button>
