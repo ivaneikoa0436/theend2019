@@ -1,105 +1,32 @@
 <!DOCTYPE html>
-<html>
-<head>
-<link rel="Ismael" window.location.href="Ismael">
-<style>
-* {box-sizing: border-box;}
-
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.topnav {
-  overflow: hidden;
-  background-color: #e9e9e9;
-}
-
-.topnav a {
-  float: left;
-  display: block;
-  color: black;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-.topnav a.active {
-  background-color: #2196F3;
-  color: white;
-}
-
-.topnav .search-container {
-  float: right;
-}
-
-.topnav input[type=text] {
-  padding: 6px;
-  margin-top: 8px;
-  font-size: 17px;
-  border: none;
-}
-
-.topnav .search-container button {
-  float: right;
-  padding: 6px 10px;
-  margin-top: 8px;
-  margin-right: 16px;
-  background: #ddd;
-  font-size: 17px;
-  border: none;
-  cursor: pointer;
-}
-
-.topnav .search-container button:hover {
-  background: #ccc;
-}
-
-@media screen and (max-width: 600px) {
-  .topnav .search-container {
-    float: none;
-  }
-  .topnav a, .topnav input[type=text], .topnav .search-container button {
-    float: none;
-    display: block;
-    text-align: left;
-    width: 100%;
-    margin: 0;
-    padding: 14px;
-  }
-  .topnav input[type=text] {
-    border: 1px solid #ccc;  
-  }
-}
-</style>
-</head>
-<body>
-
-<div class="topnav">
-  <a class="active" href="#home">Home</a>
-  <a href="#about">About</a>
-  <a href="#contact">Contact</a>
-  <div class="search-container">
-    <form action="/action_page.php">
-      <input type="text" placeholder="Search.." name="search">
-      <button type="submit"><i class="fa fa-search"></i></button>
-    </form>
-  </div>
+<html lang="en">
+</body>
+<div id="wrap">
+    <div id="upper">
+        <div class="u-top">
+            <a href="javascript:warp()"><img src="http://www.dxmgp.com/group/images/bw_si.jpg" name="targetimage" id="si" border="0" /></a>
+            <a href="javascript:warp()"><img class="picright" src="http://www.dxmgp.com/group/images/bw_dxm.jpg" name="targetimage" id="dxm" border="0" /></a>
+        </div>
+        <div class="u-mid">
+            <img src="http://www.dxmgp.com/group/images/bw_owners.png" />
+        </div>
+        <div class="u-low">
+            <a href="javascript:warp()"><img class="picleft" src="http://www.dxmgp.com/group/images/bw_tsg.jpg" id="tsg" /></a>
+            <a href="http://www.dxmgp.com" onMouseover="changeimage(myimages[2],this.href)" onMouseout="changeimage(myimages[3],this.href)"><img class="dxmlogo" src="http://www.dxmgp.com/group/images/logo_dxm.png"  /></a>
+            <a href="javascript:warp()"><img class="picright" src="http://www.dxmgp.com/group/images/bw_image.jpg" id="img" /></a>
+        </div>
+    </div>
+    <div id="lower">
+        <div class="dots"><img src="http://www.dxmgp.com/group/images/topdots.png"></div>
+        <div class="logos">
+            <a href="http://www.thescoutguide.com">
+            <img class="picll" src="http://www.dxmgp.com/group/images/logo_tsg.png"></a>
+            <a href="http://www.spatialinsights.com" onMouseover="changeimage(myimages[0],this.href)" onMouseout="changeimage(myimages[1],this.href)"><img class="picmid" src="http://www.dxmgp.com/group/images/logo_si.png"></a>
+            <a href="http://www.imagebydxm.com">
+            <img class="piclr" src="http://www.dxmgp.com/group/images/logo_image.png"></a>
+        </div>
+        <div class="dots"><img src="http://www.dxmgp.com/group/images/lowdots.png"></div>
+    </div>
 </div>
-
-<div style="padding-left:16px">
-  <h2>Responsive Search Bar</h2>
-  <p>Navigation bar with a search box and a submit button inside of it.</p>
-  <p>Resize the browser window to see the responsive effect.</p>
-</div>
-
 </body>
 </html>
-
-
