@@ -1,12 +1,13 @@
 <div id="image">
-<img src="image1.png" />
+<img src="roman.png" />
 </div>
-<a href="#" onmouseover="mouseOver()" onmouseout="mouseOut()">Mouse over to change image</a>
+<a href="#" onmouseover="mouseOver()" onmouseout="mouseOut()"><img src="roman.png" />
+</a>
 <script type="text/javascript">
 function mouseOver() {
-    document.getElementById("image").innerHTML = '<img src="bruh.jpg" />';
+    document.getElementById("image").innerHTML = '<img src="roman.png" />';
 }
 function mouseOut() {
-    document.getElementById("image").innerHTML = '<img src="roman.png" />';
+    document.getElementById("image").innerHTML = '<img src="bruh.jpg" />';
 }
 </script>
