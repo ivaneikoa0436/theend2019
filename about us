@@ -105,7 +105,7 @@ p1 {
   font-weight: bold;
   color: white;
   font-family: 'Kosugi Maru', sans-serif;
-  float:right;
+  float:center;
 }
 div.inherit {
   position: inherit;
@@ -164,11 +164,11 @@ the other would be me again.
 <div class="inherit">
 <link type="text/css" rel="stylesheet" href="style.css" />
 <a href="https://twitter.com/">
-<img src="twitter.jpg" alt="twitter" style="width:60px;height:auto;"> </a>
+<img src="twitter.jpg" alt="twitter" style="width:60px;height:auto;margin-left:100px;margin-right:100px;"> </a>
 <a href="https://www.instagram.com/">
-<img src="instagram.jpg" alt="instgram" style="width:60px;height:auto;margin-left:200px;margin-left:right;"> </a>
+<img src="instagram.jpg" alt="instgram" style="width:60px;height:auto;margin-left:100px;margin-right:100px;"> </a>
 <a href="https://www.paypal.com/us/webapps/mpp/sem/account-selection-signup?&gclid=EAIaIQobChMIgIf2w7yd5wIVDdVkCh2foQRDEAAYASAAEgI8uPD_BwE&gclsrc=aw.ds">
-<img src="pay.png" alt="twitter" style="width:60px;height:auto;margin-left:200px;margin-right:200px;"> </a>
+<img src="pay.png" alt="twitter" style="width:60px;height:auto;margin-left:100px;margin-right:100px;"> </a>
 <link type="text/css" rel="stylesheet" href="style.css" /> </p1> </div> 
 </article> 
 
