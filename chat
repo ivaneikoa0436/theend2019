@@ -93,8 +93,9 @@ img ul {
 </header>
 <nav>
 <link type="text/css" rel="stylesheet" href="button.css" />
+<link type="text/css" rel="stylesheet" href="button2.css" />
 
-<button class="button" onclick="window.location.href = 'TheENDHome' ;" value="home"/> Home </button>
+<button class="button2" onclick="window.location.href = 'TheENDHome' ;" value="home"/> Home </button>
 <button class="button" onclick="window.location.href = 'chat' ;" value="chat"/> Chat </button>
 <button class="button" onclick="window.location.href = 'about us' ;" value="about us"/> About us </button>
 <button class="button" onclick="window.location.href = 'Events' ;" value="events"/> Events </button>
