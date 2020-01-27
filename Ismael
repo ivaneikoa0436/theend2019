@@ -1,0 +1,131 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>The End</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<style>
+*
+{
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header {
+  background-color: #000000;
+  padding: 1px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+
+nav {
+  float: ;
+  width: 100%;
+  height: 60px; 
+  background: black;
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 1;
+
+}
+aside2 {
+  float: right;
+  width: 15%;
+  height: 1000px; 
+  background-image: url("FOREST2side.jpg");
+  padding: 20px;
+  position: sticky; 
+}
+aside {
+  float: left;
+  width: 15%;
+  height: 1000px; 
+  background-image: url("FOREST2.jpg");
+  padding: 20px;
+  position: sticky;
+}
+article {
+  padding: 20px;
+  width: 70%;
+  background-color: white;
+  height: 1000px; 
+}
+article2 {
+  float: initial;
+  padding: 20;
+  width: 100%;
+  background-color: red;
+  height: 20px;
+}
+img ul {
+  list-style-type: none;
+  padding: 0;
+
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer {
+  background-color: #ff0000;
+  padding: 90px;
+  text-align: center;
+  color: #c76;
+  height:60px;
+  width:100%;
+}
+
+@media only screen and (max-width: 600px) {
+  nav, article,  {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<header>
+  <img src="bruh.png" alt="logo" style="width:120px;height:168,6px;">
+  
+</header>
+<nav>
+
+<link type="text/css" rel="stylesheet" href="button.css" />
+
+
+<button class="button" onclick="window.location.href = 'TheENDHome' ;" value="home"/> Home </button>
+<button class="button" onclick="window.location.href = 'articles' ;" value="articles"/> Articles </button>
+<button class="button" onclick="window.location.href = 'about us' ;" value="about us"/> About us </button>
+<button class="button" onclick="window.location.href = 'Events' ;" value="events"/> Events </button>
+
+</nav>
+
+<section>
+<aside> 
+<link type="text/css" rel="stylesheet" href="button.css" />
+<input type="button" onclick="window.location.href = 'Account' ;" value="Account"/>
+<input type="button" onclick="window.location.href = 'login' ;" value="login"/> 
+<input type="button" onclick="window.location.href = 'registration' ;" value="registration"/>
+</aside>
+<aside2> </aside2>
+</section>
+<article2>
+   <h2>B.</h2>
+</article2>     
+<article> bruh </article>
+</body>
+<footer> gvhbjk </footer
+</html>
+

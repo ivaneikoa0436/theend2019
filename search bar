@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+</body>
+<div id="wrap">
+    <div id="upper">
+        <div class="u-top">
+            <a href="javascript:warp()"><img src="http://www.dxmgp.com/group/images/bw_si.jpg" name="targetimage" id="si" border="0" /></a>
+            <a href="javascript:warp()"><img class="picright" src="http://www.dxmgp.com/group/images/bw_dxm.jpg" name="targetimage" id="dxm" border="0" /></a>
+        </div>
+        <div class="u-mid">
+            <img src="http://www.dxmgp.com/group/images/bw_owners.png" />
+        </div>
+        <div class="u-low">
+            <a href="javascript:warp()"><img class="picleft" src="http://www.dxmgp.com/group/images/bw_tsg.jpg" id="tsg" /></a>
+            <a href="http://www.dxmgp.com" onMouseover="changeimage(myimages[2],this.href)" onMouseout="changeimage(myimages[3],this.href)"><img class="dxmlogo" src="http://www.dxmgp.com/group/images/logo_dxm.png"  /></a>
+            <a href="javascript:warp()"><img class="picright" src="http://www.dxmgp.com/group/images/bw_image.jpg" id="img" /></a>
+        </div>
+    </div>
+    <div id="lower">
+        <div class="dots"><img src="http://www.dxmgp.com/group/images/topdots.png"></div>
+        <div class="logos">
+            <a href="http://www.thescoutguide.com">
+            <img class="picll" src="http://www.dxmgp.com/group/images/logo_tsg.png"></a>
+            <a href="http://www.spatialinsights.com" onMouseover="changeimage(myimages[0],this.href)" onMouseout="changeimage(myimages[1],this.href)"><img class="picmid" src="http://www.dxmgp.com/group/images/logo_si.png"></a>
+            <a href="http://www.imagebydxm.com">
+            <img class="piclr" src="http://www.dxmgp.com/group/images/logo_image.png"></a>
+        </div>
+        <div class="dots"><img src="http://www.dxmgp.com/group/images/lowdots.png"></div>
+    </div>
+</div>
+</body>
+</html>

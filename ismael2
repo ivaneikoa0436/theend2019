@@ -1,0 +1,135 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>The End</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<style>
+*
+{
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header {
+  background-color: #000000;
+  padding: 1px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+
+nav {
+  float: ;
+  width: 100%;
+  height: 60px; 
+  background: black;
+  padding: 0px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 1;
+
+}
+aside2 {
+  float: right;
+  width: 15%;
+  height: 1000px; 
+  background-image: url("FOREST2side.jpg");
+  padding: 20px;
+  position: sticky; 
+}
+aside {
+  float: left;
+  width: 15%;
+  height: 1000px; 
+  background-image: url("FOREST2.jpg");
+  padding: 20px;
+  position: sticky;
+}
+article {
+  padding: 20px;
+  width: 70%;
+  background-color: white;
+  height: 1000px; 
+  justify-content:center;
+  margin:auto;
+}
+article2 {
+  float: initial;
+  padding: 20;
+  width: 100%;
+  background-color: red;
+  height: 20px;
+}
+img ul {
+  list-style-type: none;
+  padding: 0;
+
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer {
+  background-color: #ff0000;
+  padding: 90px;
+  text-align: center;
+  color: #c76;
+  height:60px;
+  width:100%;
+}
+
+@media only screen and (max-width: 600px) {
+  nav, article,  {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<header>
+  <img src="bruh.png" alt="logo" style="width:120px;height:auto;">
+  
+</header>
+<nav>
+
+<link type="text/css" rel="stylesheet" href="button.css" />
+<link type="text/css" rel="stylesheet" href="button2.css" />
+<link type="text/css" rel="stylesheet" href="button3.css" />
+<link type="text/css" rel="stylesheet" href="button4.css" />
+
+
+
+<button class="button" onclick="window.location.href = 'TheENDHome' ;" value="home"/> Home<font color="red">...</font> </button>
+<button class="button" onclick="window.location.href = 'articles' ;" value="articles"/> Articles </button>
+<button class="button" onclick="window.location.href = 'about us' ;" value="about us"/> About us <font color="red">.</font> </button>
+<button class="button" onclick="window.location.href = 'Events' ;" value="events"/> Events<font color="red">...</font> </button>
+
+</nav>
+
+<section>
+<aside> 
+<button class="button2" onclick="window.location.href = 'Account' ;" value="Account"/> account </button2>
+<button class="button3" onclick="window.location.href = 'login' ;" value="login"/> login </button2>
+<button class="button4" onclick="window.location.href = 'registration' ;" value="registration"/> registration  </button2>
+</aside>
+<aside2> </aside2>
+</section>
+    
+<article> bruh </article>
+</body>
+<footer>   <img src="twitter.png" alt="logo" style="width:120px;height:auto;">
+ </footer
+</html>
+
