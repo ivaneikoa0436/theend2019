@@ -17,7 +17,14 @@ body {
 }
 
 
-
+header {
+  background-color: #000000;
+  padding: 1px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+   display: block; 
+}
 
 
 nav {
@@ -63,7 +70,6 @@ img ul {
   list-style-type: none;
   
 
-<link type="text/css" rel="stylesheet" href="button2.css" />
 
 
 
@@ -82,7 +88,8 @@ img ul {
 
 
 <header>
-  <img src="bruh.png" alt="logo" style="width:120px;height:168,6px;">
+  <img src="2.png" alt="logo" style="width:512,2px;height:100px;">
+  
   
 </header>
 <nav>
@@ -100,17 +107,13 @@ img ul {
 
 <aside> 
 
- <center style="margin-top: -17px;">
- <div class="btn-group">
 <button class="button2" onclick="window.location.href = 'Account' ;" value="Account"/> account </button2>
 <button class="button3" onclick="window.location.href = 'login' ;" value="login"/> login </button2>
 <button class="button4" onclick="window.location.href = 'registration' ;" value="registration"/> registration </button2>
 </div>
-</div>
-</center>
+
 </aside>
 <article>
-
 <head>
 <title>Chat - Customer Module</title>
 <link type="text/css" rel="stylesheet" href="style.css" />
@@ -135,12 +138,13 @@ $(document).ready(function(){
  
 });
 </script>
-</body>
-</html>
+<link type="text/css" rel="stylesheet" href="style.css" />
 </article> 
 
 <section>
-<img src="images.png" alt="ad" style="width:200px;height:128,6px;">
+
+</style>
+<img id="nikeimg" src="hi.png" alt="ad" style="width:170px;height:547,px;margin-right:-20px;">
 </section>
 
 
