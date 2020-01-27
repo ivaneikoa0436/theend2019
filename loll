@@ -30,9 +30,9 @@ header {
 nav {
   float: ;
   width: 100%;
-  height: 50px; /* only for demonstration, should be removed */
-  background: #000000;
-  padding: 0px;
+  height: 0px; /* only for demonstration, should be removed */
+  background: #848484;
+  padding: 20px;
   
 }
 
@@ -44,25 +44,24 @@ nav ul {
 aside {
   float: left;
   width: 15%;
-  height: 1000px; /* only for demonstration, should be removed */
+  height: 450px; /* only for demonstration, should be removed */
   background-image: url("forest2.jpg");
   padding: 50px;
-  position: sticky; 
 }
 article {
   float: left;
   padding: 30px;
   width: 70%;
   background-color: #000000;
-   height: 1000px; 
+   height: 450px; 
   
 }
 section {
   float: left;
   width: 15%;
-  height: 1000px; /* only for demonstration, should be removed */
+  height: 450px; /* only for demonstration, should be removed */
   background-image: url("forest2side.jpg");
-  position: sticky; 
+  
 }
 
 /* Style the list inside the menu */
@@ -72,7 +71,13 @@ img ul {
 
 
 
-
+/* Style the footer */
+footer {
+  background-color: #black;
+  padding: 90px;
+  text-align: center;
+  color: #c76;
+}
 
 /* - Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
 @media (max-width: 600px) {
@@ -88,51 +93,68 @@ img ul {
 
 
 <header>
-  <img src="2.png" alt="logo" style="width:512,2px;height:100px;">
-  
+  <img src="bruh.png" alt="logo" style="width:120px;height:168,6px;">
   
 </header>
 <nav>
-<link type="text/css" rel="stylesheet" href="button.css" />
-<link type="text/css" rel="stylesheet" href="button2.css" />
-<link type="text/css" rel="stylesheet" href="button3.css" />
-<link type="text/css" rel="stylesheet" href="button4.css" />
 
+<center style="margin-top: -17px;">
 <button class="button" onclick="window.location.href = 'TheENDHome' ;" value="home"/> Home </button>
 <button class="button" onclick="window.location.href = 'chat' ;" value="chat"/> Chat </button>
 <button class="button" onclick="window.location.href = 'about us' ;" value="about us"/> About us </button>
 <button class="button" onclick="window.location.href = 'Events' ;" value="events"/> Events </button>
-
+</center>
 </nav>
 
 <aside> 
 
-<button class="button2" onclick="window.location.href = 'Account' ;" value="Account"/> account </button2>
-<button class="button3" onclick="window.location.href = 'login' ;" value="login"/> login </button2>
-<button class="button4" onclick="window.location.href = 'registration' ;" value="registration"/> registration </button2>
+ <center style="margin-top: -17px;">
+ <div class="btn-group">
+<button>Account</button>
+<button>Login</button>
+<button>Registration</button>
 </div>
-
+</center>
 </aside>
 <article>
+
+<head>
+<title>Chat - Customer Module</title>
 <link type="text/css" rel="stylesheet" href="style.css" />
-<a href="https://twitter.com/">
-<img src="twitter.jpg" alt="twitter" style="width:60px;height:auto;"> </a>
-<a href="https://www.instagram.com/">
-<img src="instagram.jpg" alt="instgram" style="width:60px;height:auto;margin-left:200px;"> </a>
-<a href="https://www.paypal.com/us/webapps/mpp/sem/account-selection-signup?&gclid=EAIaIQobChMIgIf2w7yd5wIVDdVkCh2foQRDEAAYASAAEgI8uPD_BwE&gclsrc=aw.ds">
-<img src="pay.png" alt="twitter" style="width:60px;height:auto;margin-left:200px;"> </a>
-<link type="text/css" rel="stylesheet" href="style.css" />
+</head>
+ 
+<div id="wrapper">
+    <div id="menu">
+    <div style="clear:both"></div>
+</div>
+     
+    <div id="chatbox"></div>
+     
+    <form name="message" action="">
+        <input name="usermsg" type="text" id="usermsg" size="63" />
+        <input name="submitmsg" type="submit"  id="submitmsg" value="Send" />
+    </form>
+</div>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3/jquery.min.js"></script>
+<script type="text/javascript">
+// jQuery Document
+$(document).ready(function(){
+ 
+});
+</script>
+</body>
+</html>
 </article> 
 
 <section>
-
-</style>
-<img id="nikeimg" src="hi.png" alt="ad" style="width:170px;height:547,px;margin-right:-20px;">
+<img src="images.png" alt="ad" style="width:200px;height:128,6px;">
 </section>
 
 
 
-
+<footer>
+  <h2>E</h2>
+</footer>
 
 </body>
 </html>
