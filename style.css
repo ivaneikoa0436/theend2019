@@ -8,7 +8,7 @@ form, p, span {
     margin:0;
     padding:0; }
   
-input { font:12px arial; }
+input { font:18px arial; }
   
 a {
     color:#000000;
@@ -33,8 +33,8 @@ a {
     margin-bottom:25px;
     padding:10px;
     background:#ffffff;
-    height:270px;
-    width:430px;
+    height:470px;
+    width:900px;
     border:1px solid #000000;
     overflow:auto; }
   
