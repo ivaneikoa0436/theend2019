@@ -67,13 +67,51 @@ section {
 
 /* Style the list inside the menu */
 img ul {
-  list-style-type: none;
+  list-style-type: none;}
   
+#womaninwater
+{
+  border-color: #0D1522;
+  border-style: solid;
+  border-radius: 1px;
+  float:left;
+}
 
-
-
-
-
+h1 { 
+  display: block;
+  font-size: 70px;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+  color: white;
+  font-family: 'Kosugi Maru', sans-serif;
+}
+h2 { 
+  display: block;
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+  font-family: 'Kosugi Maru', sans-serif;
+}
+p1 { 
+  display: block;
+  font-size: 25px;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+  color: white;
+  font-family: 'Kosugi Maru', sans-serif;
+  float:right;
+}
+div.inherit {
+  position: inherit;
+  width: 100%;
+  bottom: 4px;
+} 
 /* - Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
 @media (max-width: 600px) {
   nav, article {
@@ -114,6 +152,19 @@ img ul {
 
 </aside>
 <article>
+<link href="https://fonts.googleapis.com/css?family=Kosugi+Maru&display=swap" rel="stylesheet"> <pre>
+<h1> The Creators </h1>
+<img src="background (2).jpg" alt="woman in water" img id="womaninwater" style="width:250px;height:auto;"> <h2>Akira</h2> 
+<p1>
+I would say im one of the main Creators to this project,
+the other main contributer would be Anastasiia,
+countless time has beem put into this, but i wont lie,
+about 30% of this sea of hours was very......
+unproductive.Like reading a book, and at sompoint
+choosing to stare at the empty space between the words. 
+</p1> </pre>
+<p1> 
+<div class="inherit">
 <link type="text/css" rel="stylesheet" href="style.css" />
 <a href="https://twitter.com/">
 <img src="twitter.jpg" alt="twitter" style="width:60px;height:auto;"> </a>
@@ -121,7 +172,7 @@ img ul {
 <img src="instagram.jpg" alt="instgram" style="width:60px;height:auto;margin-left:200px;"> </a>
 <a href="https://www.paypal.com/us/webapps/mpp/sem/account-selection-signup?&gclid=EAIaIQobChMIgIf2w7yd5wIVDdVkCh2foQRDEAAYASAAEgI8uPD_BwE&gclsrc=aw.ds">
 <img src="pay.png" alt="twitter" style="width:60px;height:auto;margin-left:200px;"> </a>
-<link type="text/css" rel="stylesheet" href="style.css" />
+<link type="text/css" rel="stylesheet" href="style.css" /> </p1> </div> 
 </article> 
 
 <section>
