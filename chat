@@ -44,7 +44,7 @@ nav ul {
 aside {
   float: left;
   width: 15%;
-  height: 800px; /* only for demonstration, should be removed */
+  height: 700px; /* only for demonstration, should be removed */
   background-image: url("forest2.jpg");
   padding: 50px;
   position: sticky; 
@@ -54,13 +54,13 @@ article {
   padding: 30px;
   width: 70%;
   background-color: #000000;
-   height: 800px; 
+   height: 700px; 
   
 }
 section {
   float: left;
   width: 15%;
-  height: 800px; /* only for demonstration, should be removed */
+  height: 700px; /* only for demonstration, should be removed */
   background-image: url("forest2side.jpg");
   position: sticky; 
 }
@@ -139,6 +139,19 @@ $(document).ready(function(){
 });
 </script>
 <link type="text/css" rel="stylesheet" href="style.css" />
+
+<p1> 
+<div class="inherit">
+<link type="text/css" rel="stylesheet" href="style.css" />
+<a href="https://twitter.com/">
+<img src="twitter.jpg" alt="twitter" style="width:60px;height:auto;margin-left:100px;margin-right:100px;"> </a>
+<a href="https://www.instagram.com/">
+<img src="instagram.jpg" alt="instgram" style="width:60px;height:auto;margin-left:100px;margin-right:100px;"> </a>
+<a href="https://www.paypal.com/us/webapps/mpp/sem/account-selection-signup?&gclid=EAIaIQobChMIgIf2w7yd5wIVDdVkCh2foQRDEAAYASAAEgI8uPD_BwE&gclsrc=aw.ds">
+<img src="pay.png" alt="twitter" style="width:60px;height:auto;margin-left:100px;margin-right:100px;"> </a>
+<link type="text/css" rel="stylesheet" href="style.css" />
+</div>
+</p1>
 </article> 
 
 <section>
