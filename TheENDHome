@@ -13,7 +13,7 @@
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif, 'Kosugi Maru';
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -69,8 +69,34 @@ section {
 img ul {
   list-style-type: none;}
   
-p1 { 
+#hellbridge
+{
+  border-color: #0D1522;
+  border-style: solid;
+  border-radius: 1px;
+  float:left;
+}
+
+h1 { 
   display: block;
+  font-size: 70px;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+  color: white;
+  font-family: 'Kosugi Maru', sans-serif;
+}
+h2 { 
+  display: block;
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+  font-family: 'Kosugi Maru', sans-serif;
+}
+p1 { 
+  display: inline-block;
   font-size: 25px;
   margin-top: 0.67em;
   margin-bottom: 0.67em;
@@ -81,10 +107,11 @@ p1 {
   font-family: 'Kosugi Maru', sans-serif;
   float:center;
 }
-
-
-
-
+div.inherit {
+  position: inherit;
+  width: 100%;
+  bottom: 4px;
+} 
 /* - Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
 @media (max-width: 600px) {
   nav, article {
@@ -125,20 +152,33 @@ p1 {
 
 </aside>
 <article>
-<link type="text/css" rel="stylesheet" href="style.css" /> 
-<link href="https://fonts.googleapis.com/css?family=Kosugi+Maru&display=swap" rel="stylesheet">
-<h1> The hell bridge</h1>
-<img src="hellbridge.jpg" alt="hellbridge" style="width:300px;height:auto;
-<p1> basically the bridge has 2 myths carried along with it one is that if you drive your car at night with your headlights turned off, you will see a ghost couple and then you'd see a wet spot on your seat adn the other myth it that which is how the bridge got its name, is the belief that if you drive over the bridge and look over your shoulder halfway through, the scenery behind you turns into a portal to hell engulfed in flames. </p1>
-
+<link href="https://fonts.googleapis.com/css?family=Kosugi+Maru&display=swap" rel="stylesheet"> <pre>
+<h1> The Creators </h1>
+<img src="hellbridge.jpg" alt="woman in water" img id="hellbridge" style="width:250px;height:auto;">
 <p1>
+basically the bridge has 2 myths carried 
+along with it one is that if you drive your 
+car at night with your headlights turned off, 
+you will see a ghost couple and then you'd see 
+a wet spot on your seat adn the other myth it
+that which is how the bridge got its name, is
+the belief that if you drive over the bridge 
+and look over your shoulder halfway through,
+the scenery behind you turns into a portal to
+hell engulfed in flames.
+
+
+</p1> </pre>
+<p1> 
+<div class="inherit">
+<link type="text/css" rel="stylesheet" href="style.css" />
 <a href="https://twitter.com/">
 <img src="twitter.jpg" alt="twitter" style="width:60px;height:auto;margin-left:100px;margin-right:100px;"> </a>
 <a href="https://www.instagram.com/">
 <img src="instagram.jpg" alt="instgram" style="width:60px;height:auto;margin-left:100px;margin-right:100px;"> </a>
 <a href="https://www.paypal.com/us/webapps/mpp/sem/account-selection-signup?&gclid=EAIaIQobChMIgIf2w7yd5wIVDdVkCh2foQRDEAAYASAAEgI8uPD_BwE&gclsrc=aw.ds">
 <img src="pay.png" alt="twitter" style="width:60px;height:auto;margin-left:100px;margin-right:100px;"> </a>
-<link type="text/css" rel="stylesheet" href="style.css" /> </p1>
+<link type="text/css" rel="stylesheet" href="style.css" /> </p1> </div> 
 </article> 
 
 <section>
