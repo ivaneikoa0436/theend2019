@@ -145,9 +145,9 @@ div.inherit {
 
 <aside> 
 
-<button class="button2" onclick="window.location.href = 'Account' ;" value="Account"/> account </button2>
-<button class="button3" onclick="window.location.href = 'login' ;" value="login"/> login </button2>
-<button class="button4" onclick="window.location.href = 'registration' ;" value="registration"/> registration </button2>
+<button class="button2" onclick="window.location.href = 'Account' ;" value="Account"/> Account </button2>
+<button class="button3" onclick="window.location.href = 'login' ;" value="login"/> Login </button2>
+<button class="button4" onclick="window.location.href = 'registration' ;" value="Registration"/> registration </button2>
 </div>
 
 </aside>
