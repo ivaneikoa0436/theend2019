@@ -83,6 +83,13 @@ img ul {
   border-radius: 1px;
   float:left;
 }
+#alien
+{
+  border-color: #ffffff;
+  border-style: solid;
+  border-radius: 1px;
+  float:left;
+}
 h1 { 
   display: block;
   font-size: 70px;
@@ -112,6 +119,30 @@ p1 {
   color: white;
   font-family: 'Kosugi Maru', sans-serif;
   float:center;
+}
+p2 { 
+  display: block;
+  font-size: 25px;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: -270px;
+  font-weight: bold;
+  color: white;
+  font-family: 'Kosugi Maru', sans-serif;
+  float:none;
+}
+p3 { 
+  display: flow-root;
+  font-size: 25px;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: -270px;
+  font-weight: bold;
+  color: white;
+  font-family: 'Kosugi Maru', sans-serif;
+  float:none;
 }
 div.inherit {
   position: inherit;
@@ -164,27 +195,27 @@ div.inherit {
 this website is created for people who like
  supernartural things and desire to share 
  expirences and events. You can share your story 
- with us and other users,um you can discuss with
- other aswell, you may ask us questions, but we 
+ with us and other users, you can discuss with
+ other aswell. You may ask us questions, but we 
  probably wont answer, and ask for help, but we
- probably wont either. we research deeply, and 
+ probably wont either. We research deeply, and 
  are very poor please give us money.
 "idk what else can we write" </p1>
 <h1> The Creators </h1>
 <img src="background (2).jpg" alt="woman in water" img id="womaninwater" style="width:250px;height:auto;"> <h2>Akira</h2> 
-<p1>
+<p3>
 I would say im one of the main Creators to this 
 project, if i had to pick another main Creator
 the other would be me again.
-</p1> </pre>
+</p3> 
 <img src="9.jpg" alt="woman in water" img id="woman" style="width:250px;height:auto;"> <h2>Zero</h2> 
-<p1>
+<p2>
 The End.
-</p1> </pre>
-<h2>Pedro Mosqueda</h2>
+</p2> 
+<img src="bruh.png" alt="woman in water" img id="alien" style="width:250px;height:auto;"> <h2>Pedro Mosqueda</h2>
 <p1>
 You could say i did something ig ¯|_(ツ)_/¯
-</p1>
+</p1> </pre>
 <p1> 
 <div class="inherit">
 <link type="text/css" rel="stylesheet" href="style.css" />
@@ -200,7 +231,8 @@ You could say i did something ig ¯|_(ツ)_/¯
 <section>
 
 </style>
-<img id="nikeimg" src="hi.png" alt="ad" style="width:170px;height:547,px;margin-right:-20px;">
+<a href="https://www.coca-colacompany.com/home">
+<img id="nikeimg" src="hi.png" alt="ad" style="width:170px;height:547,px;margin-right:-20px;"> </a>
 </section>
 
 
