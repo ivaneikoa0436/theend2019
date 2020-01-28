@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>The End</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<style>
+*
+{
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header {
+  background-color: #000000;
+  padding: 1px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+   display: block; 
+}
+
+
+nav {
+  float: ;
+  width: 100%;
+  height: 50px; /* only for demonstration, should be removed */
+  background: #000000;
+  padding: 0px;
+  
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 1;
+
+}
+aside {
+  float: left;
+  width: 15%;
+  height: 800px; /* only for demonstration, should be removed */
+  background-image: url("forest2.jpg");
+  padding: 50px;
+  position: sticky; 
+}
+article {
+  float: left;
+  padding: 30px;
+  width: 70%;
+  background-color: #000000;
+   height: 800px; 
+  
+}
+section {
+  float: left;
+  width: 15%;
+  height: 800px; /* only for demonstration, should be removed */
+  background-image: url("forest2side.jpg");
+  position: sticky; 
+}
+
+/* Style the list inside the menu */
+img ul {
+  list-style-type: none;
+  
+
+
+
+
+
+/* - Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+
+
+<header>
+ <img src="2.png" alt="logo" style="width:512,2px;height:100px;">
+  
+  
+</header>
+<nav>
+<link type="text/css" rel="stylesheet" href="button.css" />
+<link type="text/css" rel="stylesheet" href="button2.css" />
+<link type="text/css" rel="stylesheet" href="button3.css" />
+<link type="text/css" rel="stylesheet" href="button4.css" />
+
+<button class="button" onclick="window.location.href = 'TheENDHome' ;" value="home"/> Home </button>
+<button class="button" onclick="window.location.href = 'chat' ;" value="chat"/> Chat </button>
+<button class="button" onclick="window.location.href = 'about us' ;" value="about us"/> About us </button>
+<button class="button" onclick="window.location.href = 'Events' ;" value="events"/> Events </button>
+
+</nav>
+
+<aside> 
+
+<button class="button2" onclick="window.location.href = 'Account' ;" value="Account"/> account </button2>
+<button class="button3" onclick="window.location.href = 'login' ;" value="login"/> login </button2>
+<button class="button4" onclick="window.location.href = 'registration' ;" value="registration"/> registration </button2>
+</div>
+
+</aside>
+<article>
+<head>
+<title>Chat - Customer Module</title>
+<link type="text/css" rel="stylesheet" href="style.css" />
+</head>
+ 
+<div id="wrapper">
+    <div id="menu">
+    <div style="clear:both"></div>
+</div>
+     
+    <div id="chatbox"></div>
+     
+    <form name="message" action="">
+        <input name="usermsg" type="text" id="usermsg" size="63" />
+        <input name="submitmsg" type="submit"  id="submitmsg" value="Send" />
+    </form>
+</div>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3/jquery.min.js"></script>
+<script type="text/javascript">
+// jQuery Document
+$(document).ready(function(){
+ 
+});
+</script>
+<link type="text/css" rel="stylesheet" href="style.css" />
+<p1> 
+<div class="inherit">
+<link type="text/css" rel="stylesheet" href="style.css" />
+<a href="https://twitter.com/">
+<img src="twitter.jpg" alt="twitter" style="width:60px;height:auto;margin-left:100px;margin-right:100px;"> </a>
+<a href="https://www.instagram.com/">
+<img src="instagram.jpg" alt="instgram" style="width:60px;height:auto;margin-left:100px;margin-right:100px;"> </a>
+<a href="https://www.paypal.com/us/webapps/mpp/sem/account-selection-signup?&gclid=EAIaIQobChMIgIf2w7yd5wIVDdVkCh2foQRDEAAYASAAEgI8uPD_BwE&gclsrc=aw.ds">
+<img src="pay.png" alt="twitter" style="width:60px;height:auto;margin-left:100px;margin-right:100px;"> </a>
+<link type="text/css" rel="stylesheet" href="style.css" />
+</div>
+</p1>
+</article> 
+
+<section>
+
+</style>
+<img id="nikeimg" src="hi.png" alt="ad" style="width:170px;height:547,px;margin-right:-20px;">
+</section>
+
+
+
+
+
+</body>
+</html>
