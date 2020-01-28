@@ -71,14 +71,14 @@ img ul {
   
 #womaninwater
 {
-  border-color: #;
+  border-color: #ffffff;
   border-style: solid;
   border-radius: 1px;
   float:left;
 }
 #woman
 {
-  border-color: #0D1522;
+  border-color: #ffffff;
   border-style: solid;
   border-radius: 1px;
   float:left;
