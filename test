@@ -186,10 +186,12 @@ hell engulfed in flames.
   <script>
     window.onclick = function(e)
     {   var id =  e.target.id;   
-     if (id === 'sent')  
-     { var txt = document.getElementById('example').value    
-       $( "#para" ).empty().append( txt );
-     }
+       if (id === 'sent')  
+       { var txtbox = document.getElementById('example');  
+         var txt = txtbox.value;
+         $( "#para" ).append( txt + '<br>');
+         $( txtbox ).val('');  
+       }
     }
   </script>
 
@@ -207,6 +209,32 @@ cries anymore, put on her wedding dress, murdered her
 children, and then threw them into a nearby river.
 The next day she succumbed to starvation herself.
 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+    </script>
+ 
+    <div class="info">
+      <label for="example">
+      </label>
+      <input id="example" type="text"
+             name="Ntext" size="20">
+      <input id="sent" type="submit"  
+             value="Send"> 
+  </div>
+    <p id="para">      
+    </p>
+
+  <script>
+    window.onclick = function(e)
+    {   var id =  e.target.id;   
+       if (id === 'sent')  
+       { var txtbox = document.getElementById('example');  
+         var txt = txtbox.value;
+         $( "#para" ).append( txt + '<br>');
+         $( txtbox ).val('');  
+       }
+    }
+  </script>
+
 </p1> </pre><h1> The spirits of Hoosac Tunnel </h1>
 <img src="bloodypit.jpg" alt="woman in water" img id="hellbridge" style="width:800px;height:auto;">
 <p1>
@@ -216,6 +244,31 @@ In the 24-year-long construction of the Hoosac
    tunnel that it was actually nicknamed 
    "The Bloody Pit."
 </p1> </pre>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+    </script>
+ 
+    <div class="info">
+      <label for="example">
+      </label>
+      <input id="example" type="text"
+             name="Ntext" size="20">
+      <input id="sent" type="submit"  
+             value="Send"> 
+  </div>
+    <p id="para">      
+    </p>
+
+  <script>
+    window.onclick = function(e)
+    {   var id =  e.target.id;   
+       if (id === 'sent')  
+       { var txtbox = document.getElementById('example');  
+         var txt = txtbox.value;
+         $( "#para" ).append( txt + '<br>');
+         $( txtbox ).val('');  
+       }
+    }
+  </script>
 <h1> The truth about Area 51 </h1>
 <img src="area51.jpg" alt="woman in water" img id="hellbridge" style="width:800px;height:auto;">
 <p1>
@@ -228,6 +281,31 @@ There is perhaps no urban legend, myth, or conspiracy
 
 
 </p1> </pre>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+    </script>
+ 
+    <div class="info">
+      <label for="example">
+      </label>
+      <input id="example" type="text"
+             name="Ntext" size="20">
+      <input id="sent" type="submit"  
+             value="Send"> 
+  </div>
+    <p id="para">      
+    </p>
+
+  <script>
+    window.onclick = function(e)
+    {   var id =  e.target.id;   
+       if (id === 'sent')  
+       { var txtbox = document.getElementById('example');  
+         var txt = txtbox.value;
+         $( "#para" ).append( txt + '<br>');
+         $( txtbox ).val('');  
+       }
+    }
+  </script>
 <h1> The boggy creek monster </h1>
 <img src="boggycreek.jpg" alt="woman in water" img id="hellbridge" style="width:800px;height:auto;">
 <p1>
@@ -240,6 +318,31 @@ in 1834, when people reported seeing a "wild man."
 
 
 </p1> </pre>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+    </script>
+ 
+    <div class="info">
+      <label for="example">
+      </label>
+      <input id="example" type="text"
+             name="Ntext" size="20">
+      <input id="sent" type="submit"  
+             value="Send"> 
+  </div>
+    <p id="para">      
+    </p>
+
+  <script>
+    window.onclick = function(e)
+    {   var id =  e.target.id;   
+       if (id === 'sent')  
+       { var txtbox = document.getElementById('example');  
+         var txt = txtbox.value;
+         $( "#para" ).append( txt + '<br>');
+         $( txtbox ).val('');  
+       }
+    }
+  </script>
 <h1> Momo the Missouri Monster </h1>
 <img src="momo.jpeg" alt="woman in water" img id="hellbridge" style="width:800px;height:auto;">
 <p1>
@@ -252,6 +355,31 @@ Momo is Missouri's version of Bigfoot/Sasquatch. He's been
 
 
 </p1> </pre>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+    </script>
+ 
+    <div class="info">
+      <label for="example">
+      </label>
+      <input id="example" type="text"
+             name="Ntext" size="20">
+      <input id="sent" type="submit"  
+             value="Send"> 
+  </div>
+    <p id="para">      
+    </p>
+
+  <script>
+    window.onclick = function(e)
+    {   var id =  e.target.id;   
+       if (id === 'sent')  
+       { var txtbox = document.getElementById('example');  
+         var txt = txtbox.value;
+         $( "#para" ).append( txt + '<br>');
+         $( txtbox ).val('');  
+       }
+    }
+  </script>
 <p1> 
 <div class="inherit">
 <link type="text/css" rel="stylesheet" href="style.css" />
