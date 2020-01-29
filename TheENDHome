@@ -180,7 +180,7 @@ hell engulfed in flames.
       <input id="sent" type="submit"  
              value="Send"> 
   </div>
-    <p id="para">      
+    <p id="para1">      
     </p>
 
   <script>
@@ -232,7 +232,7 @@ The next day she succumbed to starvation herself.
        if (id === 'sent')  
        { var txtbox = document.getElementById('example');  
          var txt = txtbox.value;
-         $( "#para" ).append( txt + '<br>');
+         $( "#para" ).append( txt + '<br1>');
          $( txtbox ).val('');  
        }
     }
