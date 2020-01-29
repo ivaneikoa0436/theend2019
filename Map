@@ -130,7 +130,8 @@ img ul {
 <section>
 
 </style>
-<img id="nikeimg" src="hi.png" alt="ad" style="width:170px;height:547,px;margin-right:-20px;">
+<a href="https://www.coca-colacompany.com/home">
+<img id="nikeimg" src="hi.png" alt="ad" style="width:170px;height:547,px;margin-right:-20px;"> </a>
 </section>
 
 

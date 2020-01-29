@@ -180,7 +180,7 @@ hell engulfed in flames.
       <input id="sent" type="submit"  
              value="Send"> 
   </div>
-    <p id="para">      
+    <p id="para1">      
     </p>
 
   <script>
@@ -232,7 +232,7 @@ The next day she succumbed to starvation herself.
        if (id === 'sent')  
        { var txtbox = document.getElementById('example');  
          var txt = txtbox.value;
-         $( "#para" ).append( txt + '<br>');
+         $( "#para" ).append( txt + '<br1>');
          $( txtbox ).val('');  
        }
     }
@@ -398,7 +398,8 @@ Momo is Missouri's version of Bigfoot/Sasquatch. He's been
 <section>
 
 </style>
-<img id="nikeimg" src="hi.png" alt="ad" style="width:170px;height:547,px;margin-right:-20px;">
+<a href="https://www.coca-colacompany.com/home">
+<img id="nikeimg" src="hi.png" alt="ad" style="width:170px;height:547,px;margin-right:-20px;"> </a>
 </section>
 
 
