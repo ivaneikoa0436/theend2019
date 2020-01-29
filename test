@@ -173,7 +173,7 @@ hell engulfed in flames.
     </script>
  
     <div class="info">
-      <label for="example">Enter Text
+      <label for="example">
       </label>
       <input id="example" type="text"
              name="Ntext" size="20">
