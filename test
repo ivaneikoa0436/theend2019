@@ -173,7 +173,7 @@ hell engulfed in flames.
     </script>
  
     <div class="info">
-      <label for="example">
+      <label for="example"> Comments:
       </label>
       <input id="example" type="text"
              name="Ntext" size="20">
@@ -213,7 +213,7 @@ The next day she succumbed to starvation herself.
     </script>
  
     <div class="info">
-      <label for="example">
+      <label for="example"> Comments:
       </label>
       <input id="example" type="text"
              name="Ntext" size="20">
@@ -248,7 +248,7 @@ In the 24-year-long construction of the Hoosac
     </script>
  
     <div class="info">
-      <label for="example">
+      <label for="example"> Comments:
       </label>
       <input id="example" type="text"
              name="Ntext" size="20">
@@ -285,7 +285,7 @@ There is perhaps no urban legend, myth, or conspiracy
     </script>
  
     <div class="info">
-      <label for="example">
+      <label for="example"> Comments:
       </label>
       <input id="example" type="text"
              name="Ntext" size="20">
@@ -322,7 +322,7 @@ in 1834, when people reported seeing a "wild man."
     </script>
  
     <div class="info">
-      <label for="example">
+      <label for="example"> Comments:
       </label>
       <input id="example" type="text"
              name="Ntext" size="20">
@@ -359,7 +359,7 @@ Momo is Missouri's version of Bigfoot/Sasquatch. He's been
     </script>
  
     <div class="info">
-      <label for="example">
+      <label for="example"> Comments:
       </label>
       <input id="example" type="text"
              name="Ntext" size="20">
